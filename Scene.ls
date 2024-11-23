@@ -1,0 +1,1 @@
+{"_$ver":1,"_$id":"lx8mwule","_$type":"Scene","left":0,"right":0,"top":0,"bottom":0,"name":"Scene2D","_$child":[{"_$id":"uigrfxbe","_$type":"Image","name":"Image","x":-8,"y":-109,"width":1024,"height":1024,"skin":"封面.webp","useSourceSize":true,"color":"#ffffff"}]}
