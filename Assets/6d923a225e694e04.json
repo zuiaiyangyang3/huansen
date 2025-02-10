@@ -1,0 +1,4037 @@
+{
+  "width": 30,
+  "height": 20,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%%f%5f%5f%5f%5f%5f%5f%:c%8c%8P%^%8P%^%8P%^%=^%%f%5f%5f%5f%5f%5f%5f%%",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "平地",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "2b875f291ddfd541",
+          "tilesetMap": {
+            "1": "251bbf0413c49a24",
+            "3": "43ca703199248a3f"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#3'*#mF@#S#&(#S#&'#S#&)#3'*#m=#S#&*#S#&%#S#&+#3'*#mJ6#S#&(#S#&'#S#&)#3'*#m4#S#&(#S#&)#3'*#h#S#&*#S#&%#S#&+#3'*#m4#S#&&#S#&$#3'*#m>#S#&*#S#&+#3'*#mF4",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "Tilemap",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "e70ed7a2330d1b93",
+          "tilesetMap": {
+            "2": "8cd2583e89ed7397",
+            "3": "49edeafec06d0334",
+            "4": "251bbf0413c49a24"
+          },
+          "shortcut": 2,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#S#$##S#%#~=#S#$##S#%##S#$##S#%#~=#S#$##S#%##S#$##S#%#o#C7$##C7%##C7&#v#S''#x#S#$##S#%##S#$##S#%#o#C;$##C;%##C;&#s#C7$##C7%##C7&#s#C7&$#C7%$#C7$$p#S#$##S#%##S#$##S#%#o#C?$##C?%##C?&#s#C;$##C;%##C;&#s#C;&$#C;%$#C;$$p#S#$##S#%##S#$##S#%#x#C?$##C?%##C?&#s#C?&$#C?%$#C?$$p#S#$##S#%##S#$##S#%#}#S#&##S#'#u#S#$##S#%##S'%#$#'-#$#'.#g$#+-#~8#S'%#$#+-#~6#C7'##C7(##C7)##S''#r#S'%#$#+-#s#S')#q#C7)$#C7($#C7'$r#C;'##C;(##C;)##S')#r#S'%#$#+-#w#C+###C;)$#C;($#C;'$r#C?'##C?(##C?)#s#S'%#$#+-#x#C?)$#C?($#C?'${#S'%#$#/-#$#/.#j$#//#~5#S#$##S#%#y#S'(##C7'##C7(##C7)#w#S#$##S#%##S#$##S#%#r#C7'##C7(##C7)#r#C;'##C;(##C;)#w#S#$##S#%##S#$##S#%#p#S'(#n#C;'##C;(##C;)#r#C?'##C?(##C?)#w#S#$##S#%##S#$##S#%#r#C?'##C?(##C?)#u#S#)#q#S'(#q#S#$##S#%##S#$##S#%#{#S'(#x#S#$##S#%##S#$##S#%#~=#S#$##S#%##S#$##S#%#u#S#&##S#'#}#S#$##S#%#",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "水",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "5944e647935acd73",
+          "tilesetMap": {
+            "1": "736ffd85702fc92a",
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 3,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 1,
+          "y": 0,
+          "width": 30,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~J4#3'##c#3####3'##dp#C#(#~7#3'##c#3#%##3'###3####3'##p#C#(#~7#3#%##3'##c#3####3'###3#%#p#C#(#~7#3'##c#3#$##3'##dp#C#(#~K&",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "钓鱼",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "45da4910545273f5",
+          "color": "00000080",
+          "x": 8,
+          "y": 10,
+          "width": 1,
+          "height": 4,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "setBoolean",
+                  "params": {
+                    "variable": {
+                      "type": "global",
+                      "key": "9dce1b5d966500d5"
+                    },
+                    "operation": "set",
+                    "operand": {
+                      "type": "constant",
+                      "value": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "playerleave",
+              "commands": [
+                {
+                  "id": "setBoolean",
+                  "params": {
+                    "variable": {
+                      "type": "global",
+                      "key": "9dce1b5d966500d5"
+                    },
+                    "operation": "set",
+                    "operand": {
+                      "type": "constant",
+                      "value": false
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "397f3adada1551ce"
+    },
+    {
+      "class": "actor",
+      "name": "0001.种子",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "c2b4f8e9ca59c729",
+      "actorId": "2a68dcef9c5ed1b8",
+      "teamId": "2a6ee1684ef7dfa0",
+      "x": 20.5,
+      "y": 10.5,
+      "angle": 0,
+      "scale": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "4009faa4ee2f5fbc",
+          "commands": [
+            {
+              "id": "comment",
+              "params": {
+                "comment": "领奖后的触发事件"
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "我这边有物资可以购买哦\n10级后可选择职业"
+              }
+            },
+            {
+              "id": "showChoices",
+              "params": {
+                "choices": [
+                  {
+                    "content": "打开交易窗口",
+                    "commands": [
+                      {
+                        "id": "callEvent",
+                        "params": {
+                          "type": "global",
+                          "eventId": "116f445dbaae10c7"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "新人转职",
+                    "commands": [
+                      {
+                        "id": "jumpTo",
+                        "params": {
+                          "operation": "jump",
+                          "label": "新人转职验证等级"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "结束",
+                    "commands": [
+                      {
+                        "id": "stopEvent",
+                        "params": {}
+                      }
+                    ]
+                  }
+                ],
+                "parameters": ""
+              }
+            },
+            {
+              "id": "comment",
+              "params": {
+                "comment": "最后的停止事件"
+              }
+            },
+            {
+              "id": "stopEvent",
+              "params": {}
+            },
+            {
+              "id": "label",
+              "params": {
+                "name": "新人转职验证等级"
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "number",
+                        "variable": {
+                          "type": "actor",
+                          "actor": {
+                            "type": "player"
+                          },
+                          "key": "fb9d675011f6c08f"
+                        },
+                        "operation": "greater-or-equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": 10
+                        }
+                      },
+                      {
+                        "type": "string",
+                        "variable": {
+                          "type": "actor",
+                          "actor": {
+                            "type": "player"
+                          },
+                          "key": "fe5c2daaadda1b45"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "enum",
+                          "stringId": "dcc03c0f29c02d58"
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "jumpTo",
+                        "params": {
+                          "operation": "jump",
+                          "label": "职业选择"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "elseCommands": [
+                  {
+                    "id": "showText",
+                    "params": {
+                      "target": {
+                        "type": "trigger"
+                      },
+                      "parameters": "",
+                      "content": "你已转职或者还未达到10级"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "stopEvent",
+              "params": {}
+            },
+            {
+              "id": "label",
+              "params": {
+                "name": "职业选择"
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "恭喜10级啦,当前有以下职业可以选择!\n战士(物理职业)\n魔法师(魔法职业)"
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "请选择你的职业?"
+              }
+            },
+            {
+              "id": "showChoices",
+              "params": {
+                "choices": [
+                  {
+                    "content": "转职战士",
+                    "commands": [
+                      {
+                        "id": "jumpTo",
+                        "params": {
+                          "operation": "jump",
+                          "label": "转职为战士"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "转职法师",
+                    "commands": [
+                      {
+                        "id": "jumpTo",
+                        "params": {
+                          "operation": "jump",
+                          "label": "转职为法师"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "取消",
+                    "commands": []
+                  }
+                ],
+                "parameters": ""
+              }
+            },
+            {
+              "id": "stopEvent",
+              "params": {}
+            },
+            {
+              "id": "label",
+              "params": {
+                "name": "转职为战士"
+              }
+            },
+            {
+              "id": "setString",
+              "params": {
+                "variable": {
+                  "type": "actor",
+                  "actor": {
+                    "type": "player"
+                  },
+                  "key": "fe5c2daaadda1b45"
+                },
+                "operation": "set",
+                "operand": {
+                  "type": "enum",
+                  "stringId": "9d8664dcb88c5e72"
+                }
+              }
+            },
+            {
+              "id": "playAnimation",
+              "params": {
+                "mode": "actor",
+                "actor": {
+                  "type": "player"
+                },
+                "animationId": "06444bd79069b200",
+                "motion": "48bed3b7a492c3a7",
+                "rotatable": true,
+                "priority": 0,
+                "offsetY": 0,
+                "angle": 0,
+                "speed": 1,
+                "wait": false
+              }
+            },
+            {
+              "id": "changeActorSkill",
+              "params": {
+                "actor": {
+                  "type": "player"
+                },
+                "operation": "add",
+                "skillId": "6126aa6279b5fb6f"
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "转职战士成功"
+              }
+            },
+            {
+              "id": "stopEvent",
+              "params": {}
+            },
+            {
+              "id": "label",
+              "params": {
+                "name": "转职为法师"
+              }
+            },
+            {
+              "id": "setString",
+              "params": {
+                "variable": {
+                  "type": "actor",
+                  "actor": {
+                    "type": "player"
+                  },
+                  "key": "fe5c2daaadda1b45"
+                },
+                "operation": "set",
+                "operand": {
+                  "type": "enum",
+                  "stringId": "ee6c6f9652284009"
+                }
+              }
+            },
+            {
+              "id": "changeActorSkill",
+              "params": {
+                "actor": {
+                  "type": "player"
+                },
+                "operation": "add",
+                "skillId": "b2cd4c8ce9f39e1d"
+              }
+            },
+            {
+              "id": "playAnimation",
+              "params": {
+                "mode": "actor",
+                "actor": {
+                  "type": "player"
+                },
+                "animationId": "06444bd79069b200",
+                "motion": "48bed3b7a492c3a7",
+                "rotatable": true,
+                "priority": 0,
+                "offsetY": 0,
+                "angle": 0,
+                "speed": 1,
+                "wait": false
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "转职魔法师成功"
+              }
+            },
+            {
+              "id": "stopEvent",
+              "params": {}
+            },
+            {
+              "id": "!stopEvent",
+              "params": {}
+            },
+            {
+              "id": "!label",
+              "params": {
+                "name": "增加经验值"
+              }
+            },
+            {
+              "id": "!showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "测试"
+              }
+            },
+            {
+              "id": "!setNumber",
+              "params": {
+                "variable": {
+                  "type": "actor",
+                  "actor": {
+                    "type": "player"
+                  },
+                  "key": "5c4faa90ed9b17dc"
+                },
+                "operation": "add",
+                "operands": [
+                  {
+                    "operation": "add",
+                    "type": "constant",
+                    "value": 3000
+                  }
+                ]
+              }
+            },
+            {
+              "id": "!setInventory",
+              "params": {
+                "actor": {
+                  "type": "player"
+                },
+                "operation": "increase-money",
+                "money": 9999
+              }
+            },
+            {
+              "id": "!stopEvent",
+              "params": {}
+            },
+            {
+              "id": "!label",
+              "params": {
+                "name": "传送新地图"
+              }
+            },
+            {
+              "id": "!deleteScene",
+              "params": {}
+            },
+            {
+              "id": "!loadScene",
+              "params": {
+                "sceneId": "c3dcf65ef29de508",
+                "transfer": true,
+                "x": 11,
+                "y": 4
+              }
+            },
+            {
+              "id": "!stopEvent",
+              "params": {}
+            }
+          ]
+        },
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "setInventory",
+              "params": {
+                "actor": {
+                  "type": "trigger"
+                },
+                "operation": "reset"
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "boolean",
+                        "variable": {
+                          "type": "global",
+                          "key": "ff23e642af4413eb"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": true
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "comment",
+                        "params": {
+                          "comment": "游戏调试模式选项"
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "b6f3f754a910425e",
+                          "quantity": 99
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "06e2d0326367a999",
+                          "quantity": 99
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "1904e4f92694bab9",
+                          "quantity": 99
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "caaa93eaece20a01",
+                          "quantity": 99
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "d2263c238bb9493c",
+                          "quantity": 99
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "d42f671bd23d7d1b",
+                          "quantity": 99
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "7a59026f2f6a4bdb",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "1531471d7e51f7c7",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "2e0e4ae61833df24",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "d09dc6e2c0d2ffb8",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "5b58552c6306e6ab",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "!changeActorSkill",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "operation": "add",
+                          "skillId": "01f52a02e8fecfa8"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "12fa20eaa643903e",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "7eb4cca6d0c28f5b"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "28f258a4a09a5b38"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "5c287fe4063abd15"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "1afe962e6b789779"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "4485855c3990fd16"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "4485855c3990fd16"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "b09ae605a77a7656"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "b09ae605a77a7656"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "b09ae605a77a7656"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "7a0ef8db72d9f75f"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "7a0ef8db72d9f75f"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "7a0ef8db72d9f75f"
+                        }
+                      },
+                      {
+                        "id": "!setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "gain-equipment",
+                          "equipmentId": "b09ae605a77a7656"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "elseCommands": [
+                  {
+                    "id": "comment",
+                    "params": {
+                      "comment": "游戏正式发布模式选项"
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "b6f3f754a910425e",
+                      "quantity": 99
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "06e2d0326367a999",
+                      "quantity": 99
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "1904e4f92694bab9",
+                      "quantity": 99
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "caaa93eaece20a01",
+                      "quantity": 99
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "d2263c238bb9493c",
+                      "quantity": 99
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "d42f671bd23d7d1b",
+                      "quantity": 99
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "7a59026f2f6a4bdb",
+                      "quantity": 1
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "1531471d7e51f7c7",
+                      "quantity": 1
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "2e0e4ae61833df24",
+                      "quantity": 1
+                    }
+                  },
+                  {
+                    "id": "setInventory",
+                    "params": {
+                      "actor": {
+                        "type": "trigger"
+                      },
+                      "operation": "increase-items",
+                      "itemId": "5b58552c6306e6ab",
+                      "quantity": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "label",
+                    "params": {
+                      "name": "开始对话"
+                    }
+                  },
+                  {
+                    "id": "setNumber",
+                    "params": {
+                      "variable": {
+                        "type": "local",
+                        "key": "随机时间"
+                      },
+                      "operation": "set",
+                      "operands": [
+                        {
+                          "operation": "add",
+                          "type": "math",
+                          "method": "random-int",
+                          "min": 1000,
+                          "max": 3000
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": {
+                        "type": "local",
+                        "key": "随机时间"
+                      }
+                    }
+                  },
+                  {
+                    "id": "showText",
+                    "params": {
+                      "target": {
+                        "type": "trigger"
+                      },
+                      "parameters": "mode:chat",
+                      "content": "10级后可以转职"
+                    }
+                  },
+                  {
+                    "id": "setNumber",
+                    "params": {
+                      "variable": {
+                        "type": "local",
+                        "key": "随机时间"
+                      },
+                      "operation": "set",
+                      "operands": [
+                        {
+                          "operation": "add",
+                          "type": "math",
+                          "method": "random-int",
+                          "min": 1000,
+                          "max": 5000
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": {
+                        "type": "local",
+                        "key": "随机时间"
+                      }
+                    }
+                  },
+                  {
+                    "id": "jumpTo",
+                    "params": {
+                      "operation": "jump",
+                      "label": "开始对话"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "传送门",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "b1d7e350d46dd9df",
+      "color": "c000c080",
+      "x": 29.5,
+      "y": 10.5,
+      "width": 1,
+      "height": 6,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "!loadScene",
+                    "params": {
+                      "sceneId": "61837bb21ce75b17",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "!transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "7d8c131333498b06"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "61837bb21ce75b17",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "7d8c131333498b06"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "76e6177fbfd0cb9f",
+      "color": "00000080",
+      "x": 1,
+      "y": 0.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            },
+            {
+              "id": "setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": 500
+                    }
+                  },
+                  {
+                    "id": "setBoolean",
+                    "params": {
+                      "variable": {
+                        "type": "global",
+                        "key": "24499decb41940d7"
+                      },
+                      "operation": "set",
+                      "operand": {
+                        "type": "constant",
+                        "value": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "setAmbientLight",
+                    "params": {
+                      "red": 255,
+                      "green": 255,
+                      "blue": 255,
+                      "easingId": "01eac96676bb2ee7",
+                      "duration": 1000,
+                      "wait": false
+                    }
+                  },
+                  {
+                    "id": "callEvent",
+                    "params": {
+                      "type": "global",
+                      "eventId": "03bca125e5493562"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "已读帮助文档",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "7ee92ba05dfd3ebf",
+      "color": "00000080",
+      "x": 2,
+      "y": 0.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "!setNumber",
+              "params": {
+                "variable": {
+                  "type": "global",
+                  "key": "82553ee159439c36"
+                },
+                "operation": "set",
+                "operands": [
+                  {
+                    "operation": "add",
+                    "type": "constant",
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "boolean",
+                        "variable": {
+                          "type": "global",
+                          "key": "d0444394159e99cb"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": false
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "wait",
+                        "params": {
+                          "duration": 100
+                        }
+                      },
+                      {
+                        "id": "moveActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "mode": "teleport",
+                          "destination": {
+                            "type": "absolute",
+                            "x": 4,
+                            "y": 17
+                          }
+                        }
+                      },
+                      {
+                        "id": "wait",
+                        "params": {
+                          "duration": 100
+                        }
+                      },
+                      {
+                        "id": "setBoolean",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "24499decb41940d7"
+                          },
+                          "operation": "set",
+                          "operand": {
+                            "type": "constant",
+                            "value": true
+                          }
+                        }
+                      },
+                      {
+                        "id": "setAmbientLight",
+                        "params": {
+                          "red": 10,
+                          "green": 10,
+                          "blue": 20,
+                          "easingId": "01eac96676bb2ee7",
+                          "duration": 1000,
+                          "wait": false
+                        }
+                      },
+                      {
+                        "id": "setText",
+                        "params": {
+                          "element": {
+                            "type": "trigger"
+                          },
+                          "properties": [
+                            {
+                              "key": "content",
+                              "value": "Night"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "callEvent",
+                        "params": {
+                          "type": "global",
+                          "eventId": "03bca125e5493562"
+                        }
+                      },
+                      {
+                        "id": "showText",
+                        "params": {
+                          "target": {
+                            "type": "trigger"
+                          },
+                          "parameters": "",
+                          "content": "当夜:某一森林传来了嘈杂的声音"
+                        }
+                      },
+                      {
+                        "id": "showChoices",
+                        "params": {
+                          "choices": [
+                            {
+                              "content": "继续",
+                              "commands": [
+                                {
+                                  "id": "setText",
+                                  "params": {
+                                    "element": {
+                                      "type": "trigger"
+                                    },
+                                    "properties": [
+                                      {
+                                        "key": "content",
+                                        "value": "Day"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setBoolean",
+                                  "params": {
+                                    "variable": {
+                                      "type": "global",
+                                      "key": "d0444394159e99cb"
+                                    },
+                                    "operation": "set",
+                                    "operand": {
+                                      "type": "constant",
+                                      "value": true
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "setBoolean",
+                                  "params": {
+                                    "variable": {
+                                      "type": "global",
+                                      "key": "24499decb41940d7"
+                                    },
+                                    "operation": "set",
+                                    "operand": {
+                                      "type": "constant",
+                                      "value": false
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "setAmbientLight",
+                                  "params": {
+                                    "red": 255,
+                                    "green": 255,
+                                    "blue": 255,
+                                    "easingId": "01eac96676bb2ee7",
+                                    "duration": 1000,
+                                    "wait": false
+                                  }
+                                },
+                                {
+                                  "id": "callEvent",
+                                  "params": {
+                                    "type": "global",
+                                    "eventId": "03bca125e5493562"
+                                  }
+                                },
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "早晨"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": ""
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "!if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "number",
+                        "variable": {
+                          "type": "global",
+                          "key": "82553ee159439c36"
+                        },
+                        "operation": "less-or-equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": 0
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "!showText",
+                        "params": {
+                          "target": {
+                            "type": "trigger"
+                          },
+                          "parameters": "",
+                          "content": "移动:键盘操作\n对话:接近时空格对话\n攻击:Z"
+                        }
+                      },
+                      {
+                        "id": "!showChoices",
+                        "params": {
+                          "choices": [
+                            {
+                              "content": "已经知晓",
+                              "commands": [
+                                {
+                                  "id": "!setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "global",
+                                      "key": "82553ee159439c36"
+                                    },
+                                    "operation": "add",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 1
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "!a6d23c0d87450ce5",
+                                  "params": {
+                                    "操作选项": "重置",
+                                    "下级选项": "选择单一任务取状态",
+                                    "选择任务": "",
+                                    "存到变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "取任务状态_ID_变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "取任务状态_ID_置状态": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "选择设置任务": "",
+                                    "任务的枚举": "",
+                                    "存档检索位置": -1,
+                                    "操作存档索引": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "读档检索位置": -1,
+                                    "操作读档索引": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "ID变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "存到任务名称变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "!a6d23c0d87450ce5",
+                                  "params": {
+                                    "操作选项": "初始化任务表",
+                                    "下级选项": "选择单一任务取状态",
+                                    "选择任务": "",
+                                    "存到变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "取任务状态_ID_变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "取任务状态_ID_置状态": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "选择设置任务": "",
+                                    "任务的枚举": "",
+                                    "存档检索位置": -1,
+                                    "操作存档索引": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "读档检索位置": -1,
+                                    "操作读档索引": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "ID变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    },
+                                    "存到任务名称变量": {
+                                      "getter": "variable",
+                                      "type": "local",
+                                      "key": ""
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": ""
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "actor",
+      "name": "战士导师",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "f26fdda89c82b89e",
+      "actorId": "49e8b9615ee613eb",
+      "teamId": "2a6ee1684ef7dfa0",
+      "x": 19.5,
+      "y": 5.5,
+      "angle": 0,
+      "scale": 0.5,
+      "conditions": [],
+      "events": [
+        {
+          "type": "4009faa4ee2f5fbc",
+          "commands": [
+            {
+              "id": "comment",
+              "params": {
+                "comment": "获取角色经验"
+              }
+            },
+            {
+              "id": "setList",
+              "params": {
+                "variable": {
+                  "type": "local",
+                  "key": "expList"
+                },
+                "operation": "set-numbers",
+                "list": [
+                  0,
+                  100,
+                  200,
+                  300,
+                  400,
+                  500,
+                  600,
+                  700,
+                  800,
+                  900,
+                  1100,
+                  1200,
+                  1300,
+                  1400,
+                  1500,
+                  1600,
+                  1700,
+                  1800,
+                  1900,
+                  2000,
+                  2100,
+                  3500,
+                  4500,
+                  5000,
+                  5500,
+                  6000
+                ]
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "other",
+                        "key": "game-is-paused"
+                      }
+                    ],
+                    "commands": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": "comment",
+              "params": {
+                "comment": "自己的调试器"
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "boolean",
+                        "variable": {
+                          "type": "global",
+                          "key": "ff23e642af4413eb"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": true
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "showText",
+                        "params": {
+                          "target": {
+                            "type": "trigger"
+                          },
+                          "parameters": "",
+                          "content": "调试模式开始"
+                        }
+                      },
+                      {
+                        "id": "showChoices",
+                        "params": {
+                          "choices": [
+                            {
+                              "content": "增加金币",
+                              "commands": [
+                                {
+                                  "id": "setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "increase-money",
+                                    "money": 9999
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "gain-equipment",
+                                    "equipmentId": "091bc7d265c80592"
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "gain-equipment",
+                                    "equipmentId": "87a92b2b366e76af"
+                                  }
+                                },
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "金币增加完毕"
+                                  }
+                                },
+                                {
+                                  "id": "stopEvent",
+                                  "params": {}
+                                }
+                              ]
+                            },
+                            {
+                              "content": "增加经验值",
+                              "commands": [
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "5c4faa90ed9b17dc"
+                                    },
+                                    "operation": "add",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 100000
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "经验增加完毕"
+                                  }
+                                },
+                                {
+                                  "id": "stopEvent",
+                                  "params": {}
+                                }
+                              ]
+                            },
+                            {
+                              "content": "否",
+                              "commands": []
+                            },
+                            {
+                              "content": "改成战士",
+                              "commands": [
+                                {
+                                  "id": "changeActorEquipment",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "remove-slot",
+                                    "slot": "9b914c88415f4908"
+                                  }
+                                },
+                                {
+                                  "id": "callEvent",
+                                  "params": {
+                                    "type": "global",
+                                    "eventId": "3758343d834819a7"
+                                  }
+                                },
+                                {
+                                  "id": "setString",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "fe5c2daaadda1b45"
+                                    },
+                                    "operation": "set",
+                                    "operand": {
+                                      "type": "enum",
+                                      "stringId": "dcc03c0f29c02d58"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "更变战士职业完毕"
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "--------重置等级与经验值重设属性------\n----------------开始----------------"
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "a5fd5e9f229abb2d"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 200
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "a8451228fe0c120a"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 200
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "7fa82e53c15d0e81"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 80
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "ff0db36441e761fa"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 80
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "96efe7ef1b6999bc"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 5
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "91e7127e267f9425"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 5
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "752c94a8aa99161b"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "9c18a64439c1368f"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "还原初始属性"
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "local",
+                                      "key": "当前经验值"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "variable",
+                                        "variable": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "key": "5c4faa90ed9b17dc"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "local",
+                                      "key": "调用次数"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "variable",
+                                        "variable": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "key": "fb9d675011f6c08f"
+                                        }
+                                      },
+                                      {
+                                        "operation": "sub",
+                                        "type": "constant",
+                                        "value": 1
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "fb9d675011f6c08f"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 1
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "local",
+                                      "key": "a"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "loop",
+                                  "params": {
+                                    "mode": "all",
+                                    "conditions": [
+                                      {
+                                        "type": "number",
+                                        "variable": {
+                                          "type": "local",
+                                          "key": "a"
+                                        },
+                                        "operation": "less",
+                                        "operand": {
+                                          "type": "variable",
+                                          "variable": {
+                                            "type": "local",
+                                            "key": "调用次数"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "commands": [
+                                      {
+                                        "id": "wait",
+                                        "params": {
+                                          "duration": 100
+                                        }
+                                      },
+                                      {
+                                        "id": "setNumber",
+                                        "params": {
+                                          "variable": {
+                                            "type": "local",
+                                            "key": "a"
+                                          },
+                                          "operation": "add",
+                                          "operands": [
+                                            {
+                                              "operation": "add",
+                                              "type": "constant",
+                                              "value": 1
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "id": "if",
+                                        "params": {
+                                          "branches": [
+                                            {
+                                              "mode": "all",
+                                              "conditions": [
+                                                {
+                                                  "type": "number",
+                                                  "variable": {
+                                                    "type": "local",
+                                                    "key": "a"
+                                                  },
+                                                  "operation": "equal",
+                                                  "operand": {
+                                                    "type": "constant",
+                                                    "value": 10
+                                                  }
+                                                }
+                                              ],
+                                              "commands": [
+                                                {
+                                                  "id": "setString",
+                                                  "params": {
+                                                    "variable": {
+                                                      "type": "actor",
+                                                      "actor": {
+                                                        "type": "player"
+                                                      },
+                                                      "key": "fe5c2daaadda1b45"
+                                                    },
+                                                    "operation": "set",
+                                                    "operand": {
+                                                      "type": "enum",
+                                                      "stringId": "9d8664dcb88c5e72"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "id": "callEvent",
+                                        "params": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "eventType": "07f5bfd70e427909"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "wait",
+                                  "params": {
+                                    "duration": 1000
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "5c4faa90ed9b17dc"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "variable",
+                                        "variable": {
+                                          "type": "local",
+                                          "key": "当前经验值"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "--------重置等级与经验值重设属性------\n----------------结束----------------"
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "添加技能"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "6126aa6279b5fb6f"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "1a655f1ac1d5fa83"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "6439680cbd695380"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "338712cdd388c19e"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "6439680cbd695380"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "21cebce857d394b5"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "a6e0e66a710b0b7d"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "35d7adfbb48d44ff"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "a3fd046fac946f85"
+                                  }
+                                },
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "更变职业展示完毕"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "content": "改成法师",
+                              "commands": [
+                                {
+                                  "id": "changeActorEquipment",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "remove-slot",
+                                    "slot": "9b914c88415f4908"
+                                  }
+                                },
+                                {
+                                  "id": "callEvent",
+                                  "params": {
+                                    "type": "global",
+                                    "eventId": "3758343d834819a7"
+                                  }
+                                },
+                                {
+                                  "id": "setString",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "fe5c2daaadda1b45"
+                                    },
+                                    "operation": "set",
+                                    "operand": {
+                                      "type": "enum",
+                                      "stringId": "dcc03c0f29c02d58"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "--------重置等级与经验值重设属性------\n----------------开始----------------"
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "a5fd5e9f229abb2d"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 200
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "a8451228fe0c120a"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 200
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "7fa82e53c15d0e81"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 80
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "ff0db36441e761fa"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 80
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "96efe7ef1b6999bc"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 5
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "91e7127e267f9425"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 5
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "752c94a8aa99161b"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "9c18a64439c1368f"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "还原初始属性"
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "local",
+                                      "key": "当前经验值"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "variable",
+                                        "variable": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "key": "5c4faa90ed9b17dc"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "local",
+                                      "key": "调用次数"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "variable",
+                                        "variable": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "key": "fb9d675011f6c08f"
+                                        }
+                                      },
+                                      {
+                                        "operation": "sub",
+                                        "type": "constant",
+                                        "value": 1
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "fb9d675011f6c08f"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 1
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "local",
+                                      "key": "a"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "constant",
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "loop",
+                                  "params": {
+                                    "mode": "all",
+                                    "conditions": [
+                                      {
+                                        "type": "number",
+                                        "variable": {
+                                          "type": "local",
+                                          "key": "a"
+                                        },
+                                        "operation": "less",
+                                        "operand": {
+                                          "type": "variable",
+                                          "variable": {
+                                            "type": "local",
+                                            "key": "调用次数"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "commands": [
+                                      {
+                                        "id": "wait",
+                                        "params": {
+                                          "duration": 100
+                                        }
+                                      },
+                                      {
+                                        "id": "setNumber",
+                                        "params": {
+                                          "variable": {
+                                            "type": "local",
+                                            "key": "a"
+                                          },
+                                          "operation": "add",
+                                          "operands": [
+                                            {
+                                              "operation": "add",
+                                              "type": "constant",
+                                              "value": 1
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "id": "if",
+                                        "params": {
+                                          "branches": [
+                                            {
+                                              "mode": "all",
+                                              "conditions": [
+                                                {
+                                                  "type": "number",
+                                                  "variable": {
+                                                    "type": "local",
+                                                    "key": "a"
+                                                  },
+                                                  "operation": "equal",
+                                                  "operand": {
+                                                    "type": "constant",
+                                                    "value": 10
+                                                  }
+                                                }
+                                              ],
+                                              "commands": [
+                                                {
+                                                  "id": "setString",
+                                                  "params": {
+                                                    "variable": {
+                                                      "type": "actor",
+                                                      "actor": {
+                                                        "type": "player"
+                                                      },
+                                                      "key": "fe5c2daaadda1b45"
+                                                    },
+                                                    "operation": "set",
+                                                    "operand": {
+                                                      "type": "enum",
+                                                      "stringId": "ee6c6f9652284009"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "id": "callEvent",
+                                        "params": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "eventType": "07f5bfd70e427909"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "wait",
+                                  "params": {
+                                    "duration": 1000
+                                  }
+                                },
+                                {
+                                  "id": "setNumber",
+                                  "params": {
+                                    "variable": {
+                                      "type": "actor",
+                                      "actor": {
+                                        "type": "player"
+                                      },
+                                      "key": "5c4faa90ed9b17dc"
+                                    },
+                                    "operation": "set",
+                                    "operands": [
+                                      {
+                                        "operation": "add",
+                                        "type": "variable",
+                                        "variable": {
+                                          "type": "local",
+                                          "key": "当前经验值"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "--------重置等级与经验值重设属性------\n----------------结束----------------"
+                                  }
+                                },
+                                {
+                                  "id": "comment",
+                                  "params": {
+                                    "comment": "添加技能"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "b68a117de9e2d313"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "b2cd4c8ce9f39e1d"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "7b27534119616947"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "1a655f1ac1d5fa83"
+                                  }
+                                },
+                                {
+                                  "id": "changeActorSkill",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "operation": "add",
+                                    "skillId": "54f51052f71e1eb1"
+                                  }
+                                },
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "更变职业法师完毕"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "content": "切换地图",
+                              "commands": [
+                                {
+                                  "id": "deleteScene",
+                                  "params": {}
+                                },
+                                {
+                                  "id": "loadScene",
+                                  "params": {
+                                    "sceneId": "e8524eefafa42d69",
+                                    "transfer": true,
+                                    "x": 11,
+                                    "y": 4
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": ""
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "comment",
+              "params": {
+                "comment": " "
+              }
+            },
+            {
+              "id": "comment",
+              "params": {
+                "comment": " "
+              }
+            },
+            {
+              "id": "comment",
+              "params": {
+                "comment": "脚本开始,职业导师选择"
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "string",
+                        "variable": {
+                          "type": "actor",
+                          "actor": {
+                            "type": "player"
+                          },
+                          "key": "fe5c2daaadda1b45"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "enum",
+                          "stringId": "dcc03c0f29c02d58"
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "showText",
+                        "params": {
+                          "target": {
+                            "type": "trigger"
+                          },
+                          "parameters": "",
+                          "content": "请转职后在来吧!"
+                        }
+                      },
+                      {
+                        "id": "if",
+                        "params": {
+                          "branches": [
+                            {
+                              "mode": "all",
+                              "conditions": [
+                                {
+                                  "type": "boolean",
+                                  "variable": {
+                                    "type": "global",
+                                    "key": "ff23e642af4413eb"
+                                  },
+                                  "operation": "unequal",
+                                  "operand": {
+                                    "type": "constant",
+                                    "value": true
+                                  }
+                                }
+                              ],
+                              "commands": [
+                                {
+                                  "id": "stopEvent",
+                                  "params": {}
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "setInventory",
+              "params": {
+                "actor": {
+                  "type": "trigger"
+                },
+                "operation": "reset"
+              }
+            },
+            {
+              "id": "comment",
+              "params": {
+                "comment": "通用库存 加在NPC身上 出售"
+              }
+            },
+            {
+              "id": "setInventory",
+              "params": {
+                "actor": {
+                  "type": "trigger"
+                },
+                "operation": "increase-items",
+                "itemId": "b199b0d1edce59c2",
+                "quantity": 1
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "string",
+                        "variable": {
+                          "type": "actor",
+                          "actor": {
+                            "type": "player"
+                          },
+                          "key": "fe5c2daaadda1b45"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "enum",
+                          "stringId": "9d8664dcb88c5e72"
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "a0e817f96de8a641",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "12fa20eaa643903e",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "!if",
+                        "params": {
+                          "branches": [
+                            {
+                              "mode": "all",
+                              "conditions": [
+                                {
+                                  "type": "number",
+                                  "variable": {
+                                    "type": "actor",
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "key": "fb9d675011f6c08f"
+                                  },
+                                  "operation": "greater-or-equal",
+                                  "operand": {
+                                    "type": "constant",
+                                    "value": 20
+                                  }
+                                }
+                              ],
+                              "commands": [
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "12fa20eaa643903e",
+                                    "quantity": 1
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "da52c6016480f7fa",
+                                    "quantity": 1
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "7365679bf31f9fc9",
+                                    "quantity": 1
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "b56d0223d4c9243b",
+                                    "quantity": 1
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "string",
+                        "variable": {
+                          "type": "actor",
+                          "actor": {
+                            "type": "player"
+                          },
+                          "key": "fe5c2daaadda1b45"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "enum",
+                          "stringId": "ee6c6f9652284009"
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "eb4d8cc375da7c9a",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "setInventory",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "operation": "increase-items",
+                          "itemId": "8a15867e4092b2fa",
+                          "quantity": 1
+                        }
+                      },
+                      {
+                        "id": "!if",
+                        "params": {
+                          "branches": [
+                            {
+                              "mode": "all",
+                              "conditions": [
+                                {
+                                  "type": "number",
+                                  "variable": {
+                                    "type": "actor",
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "key": "fb9d675011f6c08f"
+                                  },
+                                  "operation": "greater-or-equal",
+                                  "operand": {
+                                    "type": "constant",
+                                    "value": 20
+                                  }
+                                }
+                              ],
+                              "commands": [
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "8a15867e4092b2fa",
+                                    "quantity": 1
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "4212eb8f9e5101a9",
+                                    "quantity": 1
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "26fe7bb7995bc317",
+                                    "quantity": 1
+                                  }
+                                },
+                                {
+                                  "id": "!setInventory",
+                                  "params": {
+                                    "actor": {
+                                      "type": "trigger"
+                                    },
+                                    "operation": "increase-items",
+                                    "itemId": "41684e85a9c3725e",
+                                    "quantity": 1
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "在我这里可以深度学习专属技能"
+              }
+            },
+            {
+              "id": "showChoices",
+              "params": {
+                "choices": [
+                  {
+                    "content": "学习技能",
+                    "commands": [
+                      {
+                        "id": "callEvent",
+                        "params": {
+                          "type": "global",
+                          "eventId": "116f445dbaae10c7"
+                        }
+                      },
+                      {
+                        "id": "stopEvent",
+                        "params": {}
+                      }
+                    ]
+                  },
+                  {
+                    "content": "结束",
+                    "commands": [
+                      {
+                        "id": "stopEvent",
+                        "params": {}
+                      }
+                    ]
+                  }
+                ],
+                "parameters": ""
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "actor",
+      "name": "Actor",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "f2c532874ef0e6ef",
+      "actorId": "86b7a47592d82cb5",
+      "teamId": "2a6ee1684ef7dfa0",
+      "x": 9.5,
+      "y": 7.5,
+      "angle": 0,
+      "scale": 0.6,
+      "conditions": [],
+      "events": [
+        {
+          "type": "4009faa4ee2f5fbc",
+          "commands": [
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "钓鱼教程:需钓鱼技能,且在下方水域\n按下[钓鱼技能],当鱼儿咬钩时再次按下[钓鱼技能],即可上钩\n当前积分:<global:130225f788c85a83>"
+              }
+            },
+            {
+              "id": "setNumber",
+              "params": {
+                "variable": {
+                  "type": "local",
+                  "key": "可换成的金币"
+                },
+                "operation": "set",
+                "operands": [
+                  {
+                    "operation": "add",
+                    "type": "variable",
+                    "variable": {
+                      "type": "global",
+                      "key": "130225f788c85a83"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "setNumber",
+              "params": {
+                "variable": {
+                  "type": "local",
+                  "key": "可换成的金币"
+                },
+                "operation": "set",
+                "operands": [
+                  {
+                    "operation": "add",
+                    "type": "variable",
+                    "variable": {
+                      "type": "global",
+                      "key": "130225f788c85a83"
+                    }
+                  },
+                  {
+                    "operation": "mul",
+                    "type": "constant",
+                    "value": 100
+                  }
+                ]
+              }
+            },
+            {
+              "id": "showChoices",
+              "params": {
+                "choices": [
+                  {
+                    "content": "[<global:130225f788c85a83>]积分换成[<local:可换成的金币>]金币",
+                    "commands": [
+                      {
+                        "id": "if",
+                        "params": {
+                          "branches": [
+                            {
+                              "mode": "all",
+                              "conditions": [
+                                {
+                                  "type": "number",
+                                  "variable": {
+                                    "type": "global",
+                                    "key": "130225f788c85a83"
+                                  },
+                                  "operation": "equal",
+                                  "operand": {
+                                    "type": "constant",
+                                    "value": 0
+                                  }
+                                }
+                              ],
+                              "commands": [
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "trigger"
+                                    },
+                                    "parameters": "",
+                                    "content": "积分不足"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "elseCommands": [
+                            {
+                              "id": "setNumber",
+                              "params": {
+                                "variable": {
+                                  "type": "global",
+                                  "key": "130225f788c85a83"
+                                },
+                                "operation": "set",
+                                "operands": [
+                                  {
+                                    "operation": "add",
+                                    "type": "constant",
+                                    "value": 0
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "setInventory",
+                              "params": {
+                                "actor": {
+                                  "type": "player"
+                                },
+                                "operation": "increase-money",
+                                "money": {
+                                  "type": "local",
+                                  "key": "可换成的金币"
+                                }
+                              }
+                            },
+                            {
+                              "id": "showText",
+                              "params": {
+                                "target": {
+                                  "type": "trigger"
+                                },
+                                "parameters": "",
+                                "content": "获得<local:可换成的金币>金币"
+                              }
+                            },
+                            {
+                              "id": "setNumber",
+                              "params": {
+                                "variable": {
+                                  "type": "local",
+                                  "key": "可换成的金币"
+                                },
+                                "operation": "set",
+                                "operands": [
+                                  {
+                                    "operation": "add",
+                                    "type": "constant",
+                                    "value": 0
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "否",
+                    "commands": []
+                  }
+                ],
+                "parameters": ""
+              }
+            },
+            {
+              "id": "!showChoices",
+              "params": {
+                "choices": [
+                  {
+                    "content": "1",
+                    "commands": [
+                      {
+                        "id": "!setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "7ac5486ccbeefe55"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "constant",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "5",
+                    "commands": [
+                      {
+                        "id": "!setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "7ac5486ccbeefe55"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "constant",
+                              "value": 5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "8",
+                    "commands": [
+                      {
+                        "id": "!setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "7ac5486ccbeefe55"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "constant",
+                              "value": 8
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "9",
+                    "commands": [
+                      {
+                        "id": "!setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "7ac5486ccbeefe55"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "constant",
+                              "value": 9
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "content": "10",
+                    "commands": [
+                      {
+                        "id": "!setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "7ac5486ccbeefe55"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "constant",
+                              "value": 10
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "parameters": ""
+              }
+            },
+            {
+              "id": "!showText",
+              "params": {
+                "target": {
+                  "type": "trigger"
+                },
+                "parameters": "",
+                "content": "难度设置为:<global:7ac5486ccbeefe55>"
+              }
+            }
+          ]
+        },
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "label",
+                    "params": {
+                      "name": "开始对话"
+                    }
+                  },
+                  {
+                    "id": "setNumber",
+                    "params": {
+                      "variable": {
+                        "type": "local",
+                        "key": "随机时间"
+                      },
+                      "operation": "set",
+                      "operands": [
+                        {
+                          "operation": "add",
+                          "type": "math",
+                          "method": "random-int",
+                          "min": 1000,
+                          "max": 3000
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": {
+                        "type": "local",
+                        "key": "随机时间"
+                      }
+                    }
+                  },
+                  {
+                    "id": "showText",
+                    "params": {
+                      "target": {
+                        "type": "trigger"
+                      },
+                      "parameters": "mode:chat",
+                      "content": "没金币了,可以钓鱼哦"
+                    }
+                  },
+                  {
+                    "id": "setNumber",
+                    "params": {
+                      "variable": {
+                        "type": "local",
+                        "key": "随机时间"
+                      },
+                      "operation": "set",
+                      "operands": [
+                        {
+                          "operation": "add",
+                          "type": "math",
+                          "method": "random-int",
+                          "min": 1000,
+                          "max": 100000
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": {
+                        "type": "local",
+                        "key": "随机时间"
+                      }
+                    }
+                  },
+                  {
+                    "id": "jumpTo",
+                    "params": {
+                      "operation": "jump",
+                      "label": "开始对话"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "actor",
+      "name": "04.激励萌扬",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "88d543735839cc8b",
+      "actorId": "d8d0e537a27bdcf7",
+      "teamId": "2a6ee1684ef7dfa0",
+      "x": 16.5,
+      "y": 3.5,
+      "angle": 0,
+      "scale": 1,
+      "conditions": [],
+      "events": [],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "Region",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "7166521c0ac7fe1e",
+      "color": "00000080",
+      "x": 6.5,
+      "y": 16.5,
+      "width": 1,
+      "height": 7,
+      "conditions": [],
+      "events": [
+        {
+          "type": "playerenter",
+          "commands": [
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "boolean",
+                        "variable": {
+                          "type": "self"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": true
+                        }
+                      }
+                    ],
+                    "commands": []
+                  }
+                ],
+                "elseCommands": [
+                  {
+                    "id": "setBoolean",
+                    "params": {
+                      "variable": {
+                        "type": "self"
+                      },
+                      "operation": "set",
+                      "operand": {
+                        "type": "constant",
+                        "value": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": 100
+                    }
+                  },
+                  {
+                    "id": "showText",
+                    "params": {
+                      "target": {
+                        "type": "trigger"
+                      },
+                      "parameters": "mode:chat",
+                      "content": "今天去平原探险吧，先做好准备工作"
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": 2000
+                    }
+                  },
+                  {
+                    "id": "showText",
+                    "params": {
+                      "target": {
+                        "type": "trigger"
+                      },
+                      "parameters": "mode:chat",
+                      "content": "旁边有个箱子，不妨打开看看有什么"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "actor",
+      "name": "主城宝箱",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "098ec42cc6041ea1",
+      "actorId": "80bb7df69f4ae02a",
+      "teamId": "2a6ee1684ef7dfa0",
+      "x": 8.5,
+      "y": 17.5,
+      "angle": 0,
+      "scale": 1,
+      "conditions": [],
+      "events": [],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "Region",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "825bf0355804474a",
+      "color": "00000080",
+      "x": 17.5,
+      "y": 10,
+      "width": 1,
+      "height": 20,
+      "conditions": [],
+      "events": [
+        {
+          "type": "playerenter",
+          "commands": [
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "boolean",
+                        "variable": {
+                          "type": "self"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "constant",
+                          "value": true
+                        }
+                      }
+                    ],
+                    "commands": []
+                  }
+                ],
+                "elseCommands": [
+                  {
+                    "id": "setBoolean",
+                    "params": {
+                      "variable": {
+                        "type": "self"
+                      },
+                      "operation": "set",
+                      "operand": {
+                        "type": "constant",
+                        "value": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": 100
+                    }
+                  },
+                  {
+                    "id": "showText",
+                    "params": {
+                      "target": {
+                        "type": "trigger"
+                      },
+                      "parameters": "mode:chat",
+                      "content": "获得了武器！你可以在右上角的背包中装备并使用它"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "animation",
+      "name": "传送门动画",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "4f243dba6c60d5d1",
+      "animationId": "22e7e46b88875409",
+      "motion": "17564b58ac27b9ad",
+      "rotatable": false,
+      "x": 29.5,
+      "y": 10.5,
+      "angle": 0,
+      "scale": 1,
+      "speed": 1,
+      "opacity": 1,
+      "priority": 0,
+      "conditions": [],
+      "events": [],
+      "scripts": []
+    }
+  ]
+}

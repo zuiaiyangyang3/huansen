@@ -1,0 +1,611 @@
+{
+  "width": 30,
+  "height": 17,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%LDAe%5f%%i%i%4g%5f%6Z%BY%CX%CX%=~G9",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "最下层地面即水面等",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "a85a21ff182e8f9b",
+          "tilesetMap": {
+            "2": "736ffd85702fc92a"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 0.8,
+          "code": "#C'##e#C#$##C'###C#%##C'##i#C#%##C#$#c#C#%#c#C'##c#C####C'###C#$##C'###C#$##C'##mD&~<#C'##e~=#C'##e~=#C'##e~=#C'##e~=#C'##e~=#C'##d#C###c~=#C'###C####C'##d{#C'###C#$#c#C####C'###C#%#c#C####C'##e#C####C'###C#%##C#$##C'##c#C###d#C'##c#C#%#c#C'###C#%##C#$#o#C'##i#C####C'###C###c#C'##e#C#%##C####C'##m.#C#$#c#C'###C#$##C'###C###c#C'###C####C'###C###c#C'##mG8",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "be9ded7d0d8b805d",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 12,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~DA#C+&'#C+&&m;#C+&(o#C+&'#C+&.#C+&+m;#C+&#n#C+&&#C+&.#C+&+m<#C+&#n#C+&+m>#C+&#n#C+&$#C+&,#C+&+m<#C+&#o#C+&)#C+&,#C+&+m;#C+&#p#C+&)#C+&,#C+&+m3#C+&-#C+&$g#C+&*q#C+&)#C+&,#C+&+m2#C+&#y#C+&)#C+&,#C+&+m1#C+&#z#C+&%#C+&+m1#C+&#u",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "水润土",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4f5caff806036a89",
+          "tilesetMap": {
+            "2": "736ffd85702fc92a"
+          },
+          "shortcut": 5,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 0.77,
+          "code": "~H7#C'$##C'%#~@#C'(##C'%#~@#C'(##C'%#~4#C'$#h#C''#q#C'(##C'%#~@#C'(##C'$#~I/",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "二层",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "6594c4591cd4c6fe",
+          "tilesetMap": {},
+          "shortcut": 6,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~RA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "斜坡",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "2c889aab0bceb677",
+          "tilesetMap": {},
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 12,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~N+",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面细节",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "03c320498be79507",
+          "tilesetMap": {
+            "1": "43ca703199248a3f"
+          },
+          "shortcut": 2,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 12,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~E$#3#&(#3#&'#3#&)v#3#&(#3#&'#3#&)o#3#&(#3#&)x#3#&*#3#&%#3#&+v#3#&*#3#&%#3#&+o#3#&*#3#&+~D$#3#&(#3#&)~?#3#&&#3#&$~?#3#&&#3#&$~?#3#&*#3#&+~F<",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "物件",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "a9530442d8535ff5",
+          "tilesetMap": {
+            "2": "49edeafec06d0334"
+          },
+          "shortcut": 3,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 12,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~D3#C'&#z#C'%#t#C'%#p#C'##~D)#C'%#p#C'&#~J5",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "5006d245800a3fef"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "bfeff3d4b5a0ff0e",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 15.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "97a3df3bed34359e",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 8.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "599f7646e1d4b4aa",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 10.5,
+          "y": 5.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f1f27893e9bec5f3",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 17.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "b41f11584e102c27",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 7.5,
+          "y": 5.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "5b7da9427c57f4d2",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 18.5,
+          "y": 5.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0011.树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "2c51e4166b846677",
+          "actorId": "66dec244910fecb0",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 22.5,
+          "y": 5.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "aac1361afa922fe4"
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "c249f9247ddf268a",
+      "color": "00000080",
+      "x": 0.5,
+      "y": 0.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            },
+            {
+              "id": "setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            },
+            {
+              "id": "!setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": 500
+                    }
+                  },
+                  {
+                    "id": "setBoolean",
+                    "params": {
+                      "variable": {
+                        "type": "global",
+                        "key": "24499decb41940d7"
+                      },
+                      "operation": "set",
+                      "operand": {
+                        "type": "constant",
+                        "value": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "!setAmbientLight",
+                    "params": {
+                      "red": 10,
+                      "green": 10,
+                      "blue": 20,
+                      "easingId": "01eac96676bb2ee7",
+                      "duration": 1000,
+                      "wait": false
+                    }
+                  },
+                  {
+                    "id": "setAmbientLight",
+                    "params": {
+                      "red": 50,
+                      "green": 50,
+                      "blue": 50,
+                      "easingId": "01eac96676bb2ee7",
+                      "duration": 1000,
+                      "wait": false
+                    }
+                  },
+                  {
+                    "id": "callEvent",
+                    "params": {
+                      "type": "global",
+                      "eventId": "03bca125e5493562"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "左传送门",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "50787b8a94343d39",
+      "color": "c000c080",
+      "x": 0.5,
+      "y": 5,
+      "width": 1,
+      "height": 2,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "7184c52e26df098b",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "cde7e01758d1d22b"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "下传送门",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "a9759cda24787e32",
+      "color": "c000c080",
+      "x": 13.5,
+      "y": 11.5,
+      "width": 15,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "85af2035675bfe4c",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "dca6327438bda6e8"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    }
+  ]
+}

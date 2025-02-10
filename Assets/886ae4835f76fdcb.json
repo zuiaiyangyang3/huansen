@@ -1,0 +1,643 @@
+{
+  "width": 30,
+  "height": 17,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%LE<~M-%LE<",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "8253a3f87a6034fd",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#C#$#mR@",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "物体",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "85f03aa9e8326b61",
+          "tilesetMap": {},
+          "shortcut": 2,
+          "layer": "foreground",
+          "order": 1,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~RA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "对象",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "e877a50b6e13f4dc",
+          "tilesetMap": {
+            "1": "49edeafec06d0334",
+            "2": "251bbf0413c49a24"
+          },
+          "shortcut": 3,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "r#3'&##3')#p#3'&#co#3'&#t#3')#n#3'&#p#3'&#x#3'&#q#3')#n#3'&#dq#3')#r#C'.#m@~G##3'&#~<#3'&#x#3'&#~E&#3'&#~5#3'&#~;#3'&#~8#C'.#m@t#3')#~D##3'&#in#3'&#q#3'&#v#3'&#u#3'&#fo#3')#p#3'&#r",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "f8db645f86ab2a42"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子 - 精英 - 剧情",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "34d1f8c7c7e2c9a7",
+          "actorId": "77e234fe20d4cb5c",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 10.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1.6,
+          "conditions": [],
+          "events": [
+            {
+              "type": "create",
+              "commands": [
+                {
+                  "id": "!moveActor",
+                  "params": {
+                    "actor": {
+                      "type": "trigger"
+                    },
+                    "mode": "teleport",
+                    "destination": {
+                      "type": "relative",
+                      "x": -1,
+                      "y": 0
+                    }
+                  }
+                },
+                {
+                  "id": "setAngle",
+                  "params": {
+                    "actor": {
+                      "type": "by-id",
+                      "presetId": "34d1f8c7c7e2c9a7"
+                    },
+                    "angle": {
+                      "type": "absolute",
+                      "degrees": 180
+                    },
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 0,
+                    "wait": false
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "26d6ab415706503f"
+    },
+    {
+      "class": "region",
+      "name": "左",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "3a4536381a74eab0",
+      "color": "c000c080",
+      "x": 6.5,
+      "y": 8,
+      "width": 1,
+      "height": 10,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "!callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "!independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "!deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "!loadScene",
+                    "params": {
+                      "sceneId": "d24e34ede682d812",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "!transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "6519cbef78b77dc4"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "824a314a40841aac",
+      "color": "00000080",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "剧情触发器",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "f184b1aef9227e11",
+      "color": "00000080",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "stopActorAnimation",
+              "params": {
+                "actor": {
+                  "type": "trigger"
+                }
+              }
+            },
+            {
+              "id": "showText",
+              "params": {
+                "target": {
+                  "type": "by-id",
+                  "presetId": "34d1f8c7c7e2c9a7"
+                },
+                "parameters": "",
+                "content": "是谁,速速离去"
+              }
+            },
+            {
+              "id": "showChoices",
+              "params": {
+                "choices": [
+                  {
+                    "content": "继续",
+                    "commands": [
+                      {
+                        "id": "showText",
+                        "params": {
+                          "target": {
+                            "type": "player"
+                          },
+                          "parameters": "",
+                          "content": "我来查看一下里面的情况"
+                        }
+                      },
+                      {
+                        "id": "showChoices",
+                        "params": {
+                          "choices": [
+                            {
+                              "content": "继续",
+                              "commands": [
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "by-id",
+                                      "presetId": "34d1f8c7c7e2c9a7"
+                                    },
+                                    "parameters": "",
+                                    "content": "不需要,里面太危险了"
+                                  }
+                                },
+                                {
+                                  "id": "showChoices",
+                                  "params": {
+                                    "choices": [
+                                      {
+                                        "content": "继续",
+                                        "commands": [
+                                          {
+                                            "id": "showText",
+                                            "params": {
+                                              "target": {
+                                                "type": "by-id",
+                                                "presetId": "34d1f8c7c7e2c9a7"
+                                              },
+                                              "parameters": "",
+                                              "content": "当然,如果你能打败我再说把"
+                                            }
+                                          },
+                                          {
+                                            "id": "showChoices",
+                                            "params": {
+                                              "choices": [
+                                                {
+                                                  "content": "继续",
+                                                  "commands": [
+                                                    {
+                                                      "id": "castSkill",
+                                                      "params": {
+                                                        "actor": {
+                                                          "type": "by-id",
+                                                          "presetId": "34d1f8c7c7e2c9a7"
+                                                        },
+                                                        "mode": "by-id",
+                                                        "skillId": "b5a2f8493c1f439c",
+                                                        "wait": true
+                                                      }
+                                                    },
+                                                    {
+                                                      "id": "translateActor",
+                                                      "params": {
+                                                        "actor": {
+                                                          "type": "player"
+                                                        },
+                                                        "angle": {
+                                                          "type": "absolute",
+                                                          "degrees": 180
+                                                        },
+                                                        "distance": 10,
+                                                        "easingId": "01eac96676bb2ee7",
+                                                        "duration": 500,
+                                                        "wait": true
+                                                      }
+                                                    },
+                                                    {
+                                                      "id": "showText",
+                                                      "params": {
+                                                        "target": {
+                                                          "type": "by-id",
+                                                          "presetId": "34d1f8c7c7e2c9a7"
+                                                        },
+                                                        "parameters": "",
+                                                        "content": "就这,在等10年把!哈哈哈"
+                                                      }
+                                                    },
+                                                    {
+                                                      "id": "showChoices",
+                                                      "params": {
+                                                        "choices": [
+                                                          {
+                                                            "content": "继续",
+                                                            "commands": [
+                                                              {
+                                                                "id": "independent",
+                                                                "params": {
+                                                                  "commands": [
+                                                                    {
+                                                                      "id": "!callEvent",
+                                                                      "params": {
+                                                                        "type": "global",
+                                                                        "eventId": "105bb3424f872d93"
+                                                                      }
+                                                                    },
+                                                                    {
+                                                                      "id": "deleteScene",
+                                                                      "params": {}
+                                                                    },
+                                                                    {
+                                                                      "id": "loadScene",
+                                                                      "params": {
+                                                                        "sceneId": "d24e34ede682d812",
+                                                                        "transfer": true,
+                                                                        "x": 11,
+                                                                        "y": 3
+                                                                      }
+                                                                    },
+                                                                    {
+                                                                      "id": "transferGlobalActor",
+                                                                      "params": {
+                                                                        "actor": {
+                                                                          "type": "player"
+                                                                        },
+                                                                        "position": {
+                                                                          "type": "region",
+                                                                          "region": {
+                                                                            "type": "by-id",
+                                                                            "presetId": "aa8a4d74872fbeb2"
+                                                                          },
+                                                                          "mode": "center"
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    {
+                                                                      "id": "showText",
+                                                                      "params": {
+                                                                        "target": {
+                                                                          "type": "player"
+                                                                        },
+                                                                        "parameters": "",
+                                                                        "content": "可恶,太强了,先退回去吧"
+                                                                      }
+                                                                    },
+                                                                    {
+                                                                      "id": "showChoices",
+                                                                      "params": {
+                                                                        "choices": [
+                                                                          {
+                                                                            "content": "继续",
+                                                                            "commands": [
+                                                                              {
+                                                                                "id": "showText",
+                                                                                "params": {
+                                                                                  "target": {
+                                                                                    "type": "player"
+                                                                                  },
+                                                                                  "parameters": "",
+                                                                                  "content": "对了,先不去那么远,去前面的打点小怪吧"
+                                                                                }
+                                                                              },
+                                                                              {
+                                                                                "id": "showChoices",
+                                                                                "params": {
+                                                                                  "choices": [
+                                                                                    {
+                                                                                      "content": "继续",
+                                                                                      "commands": [
+                                                                                        {
+                                                                                          "id": "a6d23c0d87450ce5",
+                                                                                          "params": {
+                                                                                            "操作选项": "设置任务状态",
+                                                                                            "下级选项": "选择单一任务取状态",
+                                                                                            "选择任务": "",
+                                                                                            "存到变量": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            },
+                                                                                            "取任务状态_ID_变量": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            },
+                                                                                            "取任务状态_ID_置状态": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            },
+                                                                                            "选择设置任务": "7754bf59a867f2c0",
+                                                                                            "任务的枚举": "95a8001ea1e666b1",
+                                                                                            "存档检索位置": -1,
+                                                                                            "操作存档索引": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            },
+                                                                                            "读档检索位置": -1,
+                                                                                            "操作读档索引": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            },
+                                                                                            "ID变量": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            },
+                                                                                            "存到任务名称变量": {
+                                                                                              "getter": "variable",
+                                                                                              "type": "local",
+                                                                                              "key": ""
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        {
+                                                                                          "id": "showText",
+                                                                                          "params": {
+                                                                                            "target": {
+                                                                                              "type": "player"
+                                                                                            },
+                                                                                            "parameters": "",
+                                                                                            "content": "(种子平原2已开放)"
+                                                                                          }
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  "parameters": ""
+                                                                                }
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ],
+                                                                        "parameters": ""
+                                                                      }
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ],
+                                                        "parameters": ""
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "parameters": ""
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "parameters": ""
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": ""
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "parameters": ""
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "6e81dc3a75e7e9c9",
+      "color": "00000080",
+      "x": 11.5,
+      "y": 7.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            },
+            {
+              "id": "setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    }
+  ]
+}

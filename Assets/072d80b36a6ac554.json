@@ -1,0 +1,480 @@
+{
+  "width": 30,
+  "height": 17,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%LE<~L/%>R%IR%IR%KA",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "物体",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "002a555923784def",
+          "tilesetMap": {
+            "2": "251bbf0413c49a24",
+            "3": "49edeafec06d0334"
+          },
+          "shortcut": 2,
+          "layer": "foreground",
+          "order": 1,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "o#S'$#g#S'##c#S'$#g#S'###S'$##S'(##S'$#g#S'(##S'$#do#S'$#dp#S'$#c|#S'##r#C'.#m@~D2#S'%#~7#S'%#~G8#S'%#x#S'%#~E(#C'.#m.#C'/#s#C'-##C'.#kp#S'$#u#C+/#s#C+-#z#S'$##S'%#q#S'%#o#C+/#n#S'%#co#S'$##C+-#p#S'%#t#S'$#w#C+/#s#C+-#s#S'$#p",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "2a2b3612c7d45d9d",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#C#$#mR@",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "对象",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "101a76b95b319b98",
+          "tilesetMap": {},
+          "shortcut": 3,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~RA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "780342bdd4af9e7f"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "babfc928b09c70fb",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 21.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "25109e5e0a690d3f",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 26.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "5955160877e19dc1",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 12.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "9302bd4dce43f457",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 6.5,
+          "y": 9.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4369710d76b52c16",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 5.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "38bd5e0131ae1290",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 18.5,
+          "y": 9.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "7eab66ef03990c99",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 13.5,
+          "y": 11.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0003.重锤种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f39f7f1de8b8fe31",
+          "actorId": "ae3ab84ecffb1203",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 14.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "476b9b55dae1f0b4"
+    },
+    {
+      "class": "region",
+      "name": "左",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "4b2aafad0d2bc539",
+      "color": "c000c080",
+      "x": 0.5,
+      "y": 8.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "3b05db5bd60644f3",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "1b54b7ee07b5ff7d"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "下",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "370dd788a7855dd5",
+      "color": "c000c080",
+      "x": 15.5,
+      "y": 15.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "9f41996080ffa22b",
+                      "transfer": true,
+                      "x": 14,
+                      "y": 1
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "2707ebff9630b1f3"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "59b27f994ee09961",
+      "color": "00000080",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            },
+            {
+              "id": "setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "animation",
+      "name": "传送门动画",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "c7c57b46bed67672",
+      "animationId": "22e7e46b88875409",
+      "motion": "17564b58ac27b9ad",
+      "rotatable": false,
+      "x": 0.5,
+      "y": 8.5,
+      "angle": 0,
+      "scale": 1,
+      "speed": 1,
+      "opacity": 1,
+      "priority": 0,
+      "conditions": [],
+      "events": [],
+      "scripts": []
+    },
+    {
+      "class": "animation",
+      "name": "传送门动画",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "b541d3988c85f90e",
+      "animationId": "22e7e46b88875409",
+      "motion": "17564b58ac27b9ad",
+      "rotatable": false,
+      "x": 15.5,
+      "y": 15.5,
+      "angle": 0,
+      "scale": 1,
+      "speed": 1,
+      "opacity": 1,
+      "priority": 0,
+      "conditions": [],
+      "events": [],
+      "scripts": []
+    }
+  ]
+}

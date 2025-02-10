@@ -1,0 +1,536 @@
+{
+  "width": 20,
+  "height": 17,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%LD>~I+%LE2",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "0013.封印石",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "9ec1b6f798189ab1",
+          "actorId": "27656e8e08aa8d2c",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 7.5,
+          "y": 9.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "8a3333acec2fec1f"
+    },
+    {
+      "class": "region",
+      "name": "左传送门",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "42e5279996159ef9",
+      "color": "c000c080",
+      "x": 0.5,
+      "y": 8.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "ab7e9705bd3b7f1f",
+                      "transfer": true,
+                      "x": 14,
+                      "y": 1
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "9a81cf2a1d8b9ee2"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "4291f2292e67af75",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#C#$#mM6",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "物体",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "d967d36b66de2f23",
+          "tilesetMap": {
+            "2": "251bbf0413c49a24",
+            "3": "49edeafec06d0334"
+          },
+          "shortcut": 2,
+          "layer": "foreground",
+          "order": 1,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "q#S'$#q#S'&#s#S'$#~6#S'$#p#C'.#m6~I+#C'.#m6x#S'&#y#S'&#p#S'&#r#S'&#o#S'$#c#S'&#|#S'$#f",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "对象",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "527255db0a695a7d",
+          "tilesetMap": {
+            "1": "49edeafec06d0334"
+          },
+          "shortcut": 3,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 1,
+          "y": 0,
+          "width": 20,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "t#3'%#~<#3'%#d~G%#3'(#~D5#3'(#~F=",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "806748a9d6729780"
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "413a2e32388f1ee7",
+      "color": "00000080",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            },
+            {
+              "id": "setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "剧情触发器",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "d4583e57fb42f2d6",
+      "color": "00000080",
+      "x": 3.5,
+      "y": 11.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "setString",
+              "params": {
+                "variable": {
+                  "type": "local",
+                  "key": "任务状态"
+                },
+                "operation": "set",
+                "operand": {
+                  "type": "constant",
+                  "value": ""
+                }
+              }
+            },
+            {
+              "id": "a6d23c0d87450ce5",
+              "params": {
+                "操作选项": "取任务状态",
+                "下级选项": "选择单一任务取状态",
+                "选择任务": "178a1f39a57639f4",
+                "存到变量": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": "任务状态"
+                },
+                "取任务状态_ID_变量": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": ""
+                },
+                "取任务状态_ID_置状态": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": ""
+                },
+                "选择设置任务": "",
+                "任务的枚举": "",
+                "存档检索位置": -1,
+                "操作存档索引": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": ""
+                },
+                "读档检索位置": -1,
+                "操作读档索引": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": ""
+                },
+                "ID变量": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": ""
+                },
+                "存到任务名称变量": {
+                  "getter": "variable",
+                  "type": "local",
+                  "key": ""
+                }
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "string",
+                        "variable": {
+                          "type": "local",
+                          "key": "任务状态"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "enum",
+                          "stringId": "64963119bf100e1c"
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "a6d23c0d87450ce5",
+                        "params": {
+                          "操作选项": "设置任务状态",
+                          "下级选项": "选择单一任务取状态",
+                          "选择任务": "",
+                          "存到变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "取任务状态_ID_变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "取任务状态_ID_置状态": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "选择设置任务": "178a1f39a57639f4",
+                          "任务的枚举": "95a8001ea1e666b1",
+                          "存档检索位置": -1,
+                          "操作存档索引": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "读档检索位置": -1,
+                          "操作读档索引": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "ID变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "存到任务名称变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          }
+                        }
+                      },
+                      {
+                        "id": "showText",
+                        "params": {
+                          "target": {
+                            "type": "player"
+                          },
+                          "parameters": "",
+                          "content": "哇,好大的陨石啊"
+                        }
+                      },
+                      {
+                        "id": "showChoices",
+                        "params": {
+                          "choices": [
+                            {
+                              "content": "继续",
+                              "commands": [
+                                {
+                                  "id": "showText",
+                                  "params": {
+                                    "target": {
+                                      "type": "player"
+                                    },
+                                    "parameters": "",
+                                    "content": "这就是造成异常的罪魁祸首么?"
+                                  }
+                                },
+                                {
+                                  "id": "showChoices",
+                                  "params": {
+                                    "choices": [
+                                      {
+                                        "content": "继续",
+                                        "commands": [
+                                          {
+                                            "id": "showText",
+                                            "params": {
+                                              "target": {
+                                                "type": "player"
+                                              },
+                                              "parameters": "",
+                                              "content": "看来得摧毁它"
+                                            }
+                                          },
+                                          {
+                                            "id": "showChoices",
+                                            "params": {
+                                              "choices": [
+                                                {
+                                                  "content": "继续",
+                                                  "commands": []
+                                                }
+                                              ],
+                                              "parameters": ""
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "parameters": ""
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": ""
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "if",
+              "params": {
+                "branches": [
+                  {
+                    "mode": "all",
+                    "conditions": [
+                      {
+                        "type": "string",
+                        "variable": {
+                          "type": "local",
+                          "key": "任务状态"
+                        },
+                        "operation": "equal",
+                        "operand": {
+                          "type": "enum",
+                          "stringId": "d720d7b06f43d359"
+                        }
+                      }
+                    ],
+                    "commands": [
+                      {
+                        "id": "deleteActor",
+                        "params": {
+                          "actor": {
+                            "type": "by-id",
+                            "presetId": "9ec1b6f798189ab1"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "animation",
+      "name": "传送门动画",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "c1dc2f4c61807d65",
+      "animationId": "22e7e46b88875409",
+      "motion": "17564b58ac27b9ad",
+      "rotatable": false,
+      "x": 0.5,
+      "y": 8.5,
+      "angle": 0,
+      "scale": 1,
+      "speed": 1,
+      "opacity": 1,
+      "priority": 0,
+      "conditions": [],
+      "events": [],
+      "scripts": []
+    }
+  ]
+}

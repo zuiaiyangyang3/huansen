@@ -1,0 +1,488 @@
+{
+  "width": 16,
+  "height": 16,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%BZ%%Z%%Z%%Z%%Z%%Z%%Z%%Z%%Z%%Z%%Z%%Z%%Z%K9",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "最下层地面即水面等",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "6abe951756608542",
+          "tilesetMap": {
+            "2": "736ffd85702fc92a"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#C'##mJB",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "6595eeb29608294b",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 8,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "}#C+&&m0#C+&(n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&+m0#C+&#n#C+&$m0#C+&*~4",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "水面纹理",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "caf8c4724395663e",
+          "tilesetMap": {},
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 8,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 0.7,
+          "code": "~K#",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面细节",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "4b97ef8526feb65d",
+          "tilesetMap": {
+            "1": "43ca703199248a3f"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~E:#3#&(#3#&'#3#&)z#3#&*#3#&,#3#&${#3#&*#3#&+~G)",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "物件",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "57f85275b2983f87",
+          "tilesetMap": {
+            "1": "8cd2583e89ed7397",
+            "2": "49edeafec06d0334"
+          },
+          "shortcut": 2,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~D@#C'%#v#C'%#}#C'$#p#37'##37(##37)#z#3;'##3;(##3;)#z#3?'##3?(##3?)#~B#C'%#~F$",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "7c9275829dbc293e"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "05.亚米",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "6542631cbfd13f22",
+          "actorId": "a08781fc4bd037e8",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 2.5,
+          "y": 12.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "可以提前离开 要走了嘛"
+                  }
+                },
+                {
+                  "id": "showChoices",
+                  "params": {
+                    "choices": [
+                      {
+                        "content": "等待BOSS",
+                        "commands": [
+                          {
+                            "id": "createActor",
+                            "params": {
+                              "actorId": "898eff8e1e64907e",
+                              "teamId": "fa4ec7762d2d7a92",
+                              "position": {
+                                "type": "region",
+                                "region": {
+                                  "type": "by-id",
+                                  "presetId": "874c9cbb7c33c089"
+                                },
+                                "mode": "center"
+                              },
+                              "angle": 0
+                            }
+                          },
+                          {
+                            "id": "createActor",
+                            "params": {
+                              "actorId": "d94d246fb89f10b7",
+                              "teamId": "2a6ee1684ef7dfa0",
+                              "position": {
+                                "type": "actor",
+                                "actor": {
+                                  "type": "by-id",
+                                  "presetId": "6542631cbfd13f22"
+                                }
+                              },
+                              "angle": 0
+                            }
+                          },
+                          {
+                            "id": "deleteActor",
+                            "params": {
+                              "actor": {
+                                "type": "by-id",
+                                "presetId": "6542631cbfd13f22"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "content": "离开这里",
+                        "commands": [
+                          {
+                            "id": "deleteScene",
+                            "params": {}
+                          },
+                          {
+                            "id": "loadScene",
+                            "params": {
+                              "sceneId": "61837bb21ce75b17",
+                              "transfer": true,
+                              "x": 11,
+                              "y": 3
+                            }
+                          },
+                          {
+                            "id": "transferGlobalActor",
+                            "params": {
+                              "actor": {
+                                "type": "player"
+                              },
+                              "position": {
+                                "type": "region",
+                                "region": {
+                                  "type": "by-id",
+                                  "presetId": "85b56c1c736cc3e5"
+                                },
+                                "mode": "center"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "content": "结束",
+                        "commands": []
+                      }
+                    ],
+                    "parameters": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "2001.种子宝宝",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "3b2d6f804358b208",
+          "actorId": "8a4eac98ad1b1b09",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 2.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "2001.种子宝宝",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8128aff26c0b215c",
+          "actorId": "8a4eac98ad1b1b09",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 7.5,
+          "y": 2.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "2001.种子宝宝",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8bea06cd67d4e700",
+          "actorId": "8a4eac98ad1b1b09",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 11.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "2001.种子宝宝",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "c46c345066a87b8a",
+          "actorId": "8a4eac98ad1b1b09",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 7.5,
+          "y": 10.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "68209d1a3a380bc1"
+    },
+    {
+      "class": "folder",
+      "name": "区域",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "region",
+          "name": "背景音乐",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "99367aa15cb86efa",
+          "color": "00000080",
+          "x": 12.5,
+          "y": 9.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "playAudio",
+                  "params": {
+                    "type": "bgm",
+                    "audio": "3a4bbbe63657cf67",
+                    "volume": 1
+                  }
+                },
+                {
+                  "id": "setVolume",
+                  "params": {
+                    "type": "bgm",
+                    "volume": {
+                      "type": "global",
+                      "key": "a9bb97971c7c2fd1"
+                    },
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 0,
+                    "wait": false
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "boss",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "874c9cbb7c33c089",
+          "color": "00000080",
+          "x": 7.5,
+          "y": 5.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "18eb2d887306000b"
+    },
+    {
+      "class": "folder",
+      "name": "光源",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "6d3afd517770528d"
+    },
+    {
+      "class": "folder",
+      "name": "动画",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "d3a74393566dc3e5"
+    },
+    {
+      "class": "folder",
+      "name": "粒子",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "dbc57abcc821468b"
+    },
+    {
+      "class": "folder",
+      "name": "视察",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "e65161eba8cbe90d"
+    }
+  ]
+}

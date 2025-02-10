@@ -1,0 +1,1103 @@
+{
+  "width": 30,
+  "height": 25,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "~Z1",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "背景",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "220e2062887e0624",
+          "tilesetMap": {
+            "1": "43ca703199248a3f"
+          },
+          "shortcut": 2,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 25,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#3#$#mZ0",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "背景装饰",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f9a886a7606fe623",
+          "tilesetMap": {},
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 25,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~Z1",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "对象",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "eabfa4e69c89802c",
+          "tilesetMap": {
+            "1": "251bbf0413c49a24",
+            "2": "49edeafec06d0334"
+          },
+          "shortcut": 3,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 25,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~E=#3'.#i#3'/#~G(#C'(#~5#C'(#~5#3'.#i#3'/#~E.#C'(#~F.#C'(#~7#C'(#c~E+#C'(#~E+#3'.#m@~E=",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "ab00208cb805858a"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子 - 精英",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "853cec51528faea2",
+          "actorId": "2b021c1686c4b479",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 12.5,
+          "y": 18.5,
+          "angle": 0,
+          "scale": 1.6,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "!showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "执行"
+                  }
+                },
+                {
+                  "id": "setString",
+                  "params": {
+                    "variable": {
+                      "type": "local",
+                      "key": "任务状态"
+                    },
+                    "operation": "set",
+                    "operand": {
+                      "type": "constant",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "a6d23c0d87450ce5",
+                  "params": {
+                    "操作选项": "取任务状态",
+                    "下级选项": "选择单一任务取状态",
+                    "选择任务": "7754bf59a867f2c0",
+                    "存到变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": "任务状态"
+                    },
+                    "取任务状态_ID_变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "取任务状态_ID_置状态": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "选择设置任务": "",
+                    "任务的枚举": "",
+                    "存档检索位置": -1,
+                    "操作存档索引": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "读档检索位置": -1,
+                    "操作读档索引": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "ID变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "存到任务名称变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    }
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "1b8277fb14df1590"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "callEvent",
+                            "params": {
+                              "type": "global",
+                              "eventId": "d6b7b0cb47c24e40"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "elseCommands": [
+                      {
+                        "id": "deleteActor",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f4e7865538fcdc8e",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 18.5,
+          "y": 9.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "202831d8b539e15b",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 16.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "e3a462ed5b93ac1a",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 11.5,
+          "y": 5.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4714a5feb4b9cd50",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 7.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "cefe807adf8f754b",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 12.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "70a328c367767f90",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 21.5,
+          "y": 12.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "c52f1ba5d5f56eef",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 17.5,
+          "y": 13.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4b8a88b607594b32",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 20.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "61e4605a569ab860",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 8.5,
+          "y": 12.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "99f3955d7d47a564",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 7.5,
+          "y": 15.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8908d0dbcee5c675",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 20.5,
+          "y": 16.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "40ac8c0e536c7fba",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 4.5,
+          "y": 15.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子2",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "0df86e3c753fe657",
+          "actorId": "55436ce58b5da34b",
+          "teamId": "fa4ec7762d2d7a92",
+          "x": 11.5,
+          "y": 15.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "0002.盾卫种子 - 精英 - 剧情",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "72f9d67651f89868",
+          "actorId": "77e234fe20d4cb5c",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 43.5,
+          "y": 24.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "d32bdd4a36bda4f2"
+    },
+    {
+      "class": "folder",
+      "name": "区域",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "region",
+          "name": "开局触发器",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "26bbd80fce6ebcde",
+          "color": "00000080",
+          "x": 1.5,
+          "y": 1.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "!wait",
+                  "params": {
+                    "duration": 100
+                  }
+                },
+                {
+                  "id": "!castSkill",
+                  "params": {
+                    "actor": {
+                      "type": "player"
+                    },
+                    "mode": "by-key",
+                    "key": "90007906916a7fd8",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!shakeScreen",
+                  "params": {
+                    "mode": "random",
+                    "power": 5,
+                    "speed": 10,
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 200,
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!showText",
+                  "params": {
+                    "target": {
+                      "type": "player"
+                    },
+                    "parameters": "",
+                    "content": "999"
+                  }
+                },
+                {
+                  "id": "!shakeScreen",
+                  "params": {
+                    "mode": "random",
+                    "power": 10,
+                    "speed": 10,
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 200,
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!wait",
+                  "params": {
+                    "duration": 1002
+                  }
+                },
+                {
+                  "id": "!moveActor",
+                  "params": {
+                    "actor": {
+                      "type": "player"
+                    },
+                    "mode": "straight",
+                    "destination": {
+                      "type": "relative",
+                      "x": 2,
+                      "y": 0
+                    },
+                    "wait": true
+                  }
+                },
+                {
+                  "id": "!castSkill",
+                  "params": {
+                    "actor": {
+                      "type": "player"
+                    },
+                    "mode": "by-key",
+                    "key": "90007906916a7fd8",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "boolean",
+                            "variable": {
+                              "type": "global",
+                              "key": "c3cdf38cf32de54a"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "constant",
+                              "value": false
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "!showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "左边是我居住的地方"
+                            }
+                          },
+                          {
+                            "id": "!showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "右边是种子平原"
+                            }
+                          },
+                          {
+                            "id": "!showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "先回去把"
+                            }
+                          },
+                          {
+                            "id": "!setBoolean",
+                            "params": {
+                              "variable": {
+                                "type": "global",
+                                "key": "c3cdf38cf32de54a"
+                              },
+                              "operation": "set",
+                              "operand": {
+                                "type": "constant",
+                                "value": true
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "左",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4e68654da2107c44",
+          "color": "00000080",
+          "x": 0.5,
+          "y": 6.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "fb3615233ef9300d",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "8953d1ab7a102c07"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "右",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "1b54b7ee07b5ff7d",
+          "color": "00000080",
+          "x": 29.5,
+          "y": 10.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "setString",
+                        "params": {
+                          "variable": {
+                            "type": "local",
+                            "key": "任务状态"
+                          },
+                          "operation": "set",
+                          "operand": {
+                            "type": "constant",
+                            "value": ""
+                          }
+                        }
+                      },
+                      {
+                        "id": "a6d23c0d87450ce5",
+                        "params": {
+                          "操作选项": "取任务状态",
+                          "下级选项": "选择单一任务取状态",
+                          "选择任务": "7754bf59a867f2c0",
+                          "存到变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": "任务状态"
+                          },
+                          "取任务状态_ID_变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "取任务状态_ID_置状态": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "选择设置任务": "",
+                          "任务的枚举": "",
+                          "存档检索位置": -1,
+                          "操作存档索引": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "读档检索位置": -1,
+                          "操作读档索引": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "ID变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          },
+                          "存到任务名称变量": {
+                            "getter": "variable",
+                            "type": "local",
+                            "key": ""
+                          }
+                        }
+                      },
+                      {
+                        "id": "if",
+                        "params": {
+                          "branches": [
+                            {
+                              "mode": "all",
+                              "conditions": [
+                                {
+                                  "type": "string",
+                                  "variable": {
+                                    "type": "local",
+                                    "key": "任务状态"
+                                  },
+                                  "operation": "equal",
+                                  "operand": {
+                                    "type": "enum",
+                                    "stringId": "d720d7b06f43d359"
+                                  }
+                                }
+                              ],
+                              "commands": [
+                                {
+                                  "id": "deleteScene",
+                                  "params": {}
+                                },
+                                {
+                                  "id": "loadScene",
+                                  "params": {
+                                    "sceneId": "072d80b36a6ac554",
+                                    "transfer": true,
+                                    "x": 11,
+                                    "y": 3
+                                  }
+                                },
+                                {
+                                  "id": "transferGlobalActor",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "position": {
+                                      "type": "region",
+                                      "region": {
+                                        "type": "by-id",
+                                        "presetId": "4b2aafad0d2bc539"
+                                      },
+                                      "mode": "center"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "elseCommands": [
+                            {
+                              "id": "showText",
+                              "params": {
+                                "target": {
+                                  "type": "trigger"
+                                },
+                                "parameters": "mode:chat",
+                                "content": "不能在深入了"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "上",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "84b2b1304a9bbd93",
+          "color": "00000080",
+          "x": 16,
+          "y": -3,
+          "width": 4,
+          "height": 2,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "af739f72a55d5d42",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "b063e6d21740bf3b"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "背景音乐",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "06f9d03bb5f8b98d",
+          "color": "00000080",
+          "x": 16.5,
+          "y": 8.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "playAudio",
+                  "params": {
+                    "type": "bgm",
+                    "audio": "3a4bbbe63657cf67",
+                    "volume": 1
+                  }
+                },
+                {
+                  "id": "setVolume",
+                  "params": {
+                    "type": "bgm",
+                    "volume": {
+                      "type": "global",
+                      "key": "a9bb97971c7c2fd1"
+                    },
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 0,
+                    "wait": false
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "a6b53c8687f0c82f"
+    },
+    {
+      "class": "folder",
+      "name": "光源",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "a32830dab81938a3"
+    },
+    {
+      "class": "folder",
+      "name": "动画",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "c4ee2b1a2aa06ef4",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 0.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "24ae4f95407c0c9c",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 29.5,
+          "y": 10.5,
+          "angle": 0,
+          "scale": 1,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "bef5cb4b067f2a01"
+    },
+    {
+      "class": "folder",
+      "name": "粒子",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "48718fe1549d6635"
+    },
+    {
+      "class": "folder",
+      "name": "视察",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "4340f0bfce0fadb3"
+    }
+  ]
+}

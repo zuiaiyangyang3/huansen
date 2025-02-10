@@ -1,0 +1,2002 @@
+{
+  "width": 30,
+  "height": 30,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%LE)P%@V%P%d%P%~I%%LL.~K1",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "背景",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "65fe7df2bb3ac985",
+          "tilesetMap": {
+            "1": "43ca703199248a3f",
+            "2": "251bbf0413c49a24"
+          },
+          "shortcut": 2,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#3#&.#3#&%l#3#&+#3#$##3#&*#3#&%m1#3#&$#3#$#m.#C'*##3#$#m2#3#&/#3#&'l#3#&)#3#$##3#&(#3#&'m1#3#&#m.#3#&$#3#$##3#&&#3#&#m=#3#&$#3#$##3#&*#3#&,#3#&#m0#3#&.#3#&%h#3#&,#3#&#d#3#&$#C'*##3#$##3#&*#3#&,#3#&#h#3#&.#3#&%f#3#&$#3#$#h#3#&&#3#&#d#3#&/#3#&'#3#&)#3#$##3#&&#3#&#h#3#&$#3#$#f#3#&/#3#&'h#3#&-#3#&#f#3#&/#3#&'#3#&-#3#&#h#3#&/#3#&'f#3#&#mN*#3#&%m@~K1",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "背景装饰",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "ce7ce621451ede60",
+          "tilesetMap": {
+            "1": "43ca703199248a3f",
+            "2": "251bbf0413c49a24"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~D?#C'.#k#C'/#q#C'-##C'.#m0w#3#(#q#C+/#~;#3#(#q#C+-#~I%#C'.#m@w#C+/#v#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~6#C+/#q#C+-#q#C+-#~K:",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "对象",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8d80680d3b64c1e7",
+          "tilesetMap": {
+            "1": "49edeafec06d0334",
+            "2": "8cd2583e89ed7397"
+          },
+          "shortcut": 3,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~F6#3'$#~:#3#)#~DA#3'$#~D+#C7'##C7(##C7)#q#C7'##C7(##C7)#q#C7'##C7(##C7)#z#C;'##C;(##C;)#q#C;'##C;(##C;)#q#C;'##C;(##C;)#z#C?'##C?(##C?)#q#C?'##C?(##C?)#q#C?'##C?(##C?)#t#3#)#~D&#3'%#n#3#)#y#3'&#v#3'%#~?#3#)#~5#3#)#r#3'$#z#3'&#~B#3#)#~D2#3'%#q#3'$#|#3'&#q#3'%#n#3#)#p#3'&#~M.",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "80c191fb1c5c2f00"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "001.亚米",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f0ad449d0623266b",
+          "actorId": "d8dbf6fe07548586",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 17.5,
+          "y": 5.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "setString",
+                  "params": {
+                    "variable": {
+                      "type": "local",
+                      "key": "任务状态"
+                    },
+                    "operation": "set",
+                    "operand": {
+                      "type": "constant",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "a6d23c0d87450ce5",
+                  "params": {
+                    "操作选项": "取任务状态",
+                    "下级选项": "选择单一任务取状态",
+                    "选择任务": "300e6e2585e8e640",
+                    "存到变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": "任务状态"
+                    },
+                    "取任务状态_ID_变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "取任务状态_ID_置状态": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "选择设置任务": "",
+                    "任务的枚举": "",
+                    "存档检索位置": -1,
+                    "操作存档索引": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "读档检索位置": -1,
+                    "操作读档索引": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "ID变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "存到任务名称变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    }
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "已解锁,未接收"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "95a8001ea1e666b1"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "!a6d23c0d87450ce5",
+                            "params": {
+                              "操作选项": "设置任务状态",
+                              "下级选项": "选择单一任务取状态",
+                              "选择任务": "",
+                              "存到变量": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              },
+                              "取任务状态_ID_变量": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              },
+                              "取任务状态_ID_置状态": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              },
+                              "选择设置任务": "300e6e2585e8e640",
+                              "任务的枚举": "95a8001ea1e666b1",
+                              "存档检索位置": -1,
+                              "操作存档索引": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              },
+                              "读档检索位置": -1,
+                              "操作读档索引": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              },
+                              "ID变量": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              },
+                              "存到任务名称变量": {
+                                "getter": "variable",
+                                "type": "local",
+                                "key": ""
+                              }
+                            }
+                          },
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "呜呜呜"
+                            }
+                          },
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "你怎么了"
+                            }
+                          },
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "帮帮我,那边打起来了"
+                            }
+                          },
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "我好不容易,逃出来了"
+                            }
+                          },
+                          {
+                            "id": "showChoices",
+                            "params": {
+                              "choices": [
+                                {
+                                  "content": "帮忙",
+                                  "commands": [
+                                    {
+                                      "id": "a6d23c0d87450ce5",
+                                      "params": {
+                                        "操作选项": "设置任务状态",
+                                        "下级选项": "选择单一任务取状态",
+                                        "选择任务": "",
+                                        "存到变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "取任务状态_ID_变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "取任务状态_ID_置状态": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "选择设置任务": "300e6e2585e8e640",
+                                        "任务的枚举": "2127282ac714ae8f",
+                                        "存档检索位置": -1,
+                                        "操作存档索引": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "读档检索位置": -1,
+                                        "操作读档索引": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "ID变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "存到任务名称变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "showText",
+                                      "params": {
+                                        "target": {
+                                          "type": "trigger"
+                                        },
+                                        "parameters": "",
+                                        "content": "就在前面的种子平原1,出村第一条岔路口就是了"
+                                      }
+                                    },
+                                    {
+                                      "id": "showText",
+                                      "params": {
+                                        "target": {
+                                          "type": "trigger"
+                                        },
+                                        "parameters": "",
+                                        "content": "(前往种子平原1,安抚10只种子宝宝)"
+                                      }
+                                    },
+                                    {
+                                      "id": "removeAnimationComponent",
+                                      "params": {
+                                        "actor": {
+                                          "type": "trigger"
+                                        },
+                                        "animationId": "ba6127b1cc0d3e63",
+                                        "motion": "95a8001ea1e666b1"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "content": "算了",
+                                  "commands": []
+                                }
+                              ],
+                              "parameters": ""
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "已接收"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "2127282ac714ae8f"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "拜托了！我相信你一定能够做到的。我在这里等你，希望你能带着好消息回来"
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "可完成"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "1b8277fb14df1590"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "谢谢,这点礼物收下把"
+                            }
+                          },
+                          {
+                            "id": "!showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "如果可以的话,请让我跟随大人一起冒险"
+                            }
+                          },
+                          {
+                            "id": "showChoices",
+                            "params": {
+                              "choices": [
+                                {
+                                  "content": "确定",
+                                  "commands": [
+                                    {
+                                      "id": "!changeActorTeam",
+                                      "params": {
+                                        "actor": {
+                                          "type": "trigger"
+                                        },
+                                        "teamId": "09eae4cd86f61848"
+                                      }
+                                    },
+                                    {
+                                      "id": "!setPartyMember",
+                                      "params": {
+                                        "operation": "add",
+                                        "actor": {
+                                          "type": "trigger"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "a6d23c0d87450ce5",
+                                      "params": {
+                                        "操作选项": "设置任务状态",
+                                        "下级选项": "选择单一任务取状态",
+                                        "选择任务": "",
+                                        "存到变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "取任务状态_ID_变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "取任务状态_ID_置状态": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "选择设置任务": "300e6e2585e8e640",
+                                        "任务的枚举": "d720d7b06f43d359",
+                                        "存档检索位置": -1,
+                                        "操作存档索引": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "读档检索位置": -1,
+                                        "操作读档索引": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "ID变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "存到任务名称变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "comment",
+                                      "params": {
+                                        "comment": "完成任务的奖励"
+                                      }
+                                    },
+                                    {
+                                      "id": "setInventory",
+                                      "params": {
+                                        "actor": {
+                                          "type": "player"
+                                        },
+                                        "operation": "decrease-items",
+                                        "itemId": "1b716260049f70b0",
+                                        "quantity": 999
+                                      }
+                                    },
+                                    {
+                                      "id": "setNumber",
+                                      "params": {
+                                        "variable": {
+                                          "type": "actor",
+                                          "actor": {
+                                            "type": "player"
+                                          },
+                                          "key": "5c4faa90ed9b17dc"
+                                        },
+                                        "operation": "add",
+                                        "operands": [
+                                          {
+                                            "operation": "add",
+                                            "type": "constant",
+                                            "value": 100
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "id": "removeAnimationComponent",
+                                      "params": {
+                                        "actor": {
+                                          "type": "trigger"
+                                        },
+                                        "animationId": "ba6127b1cc0d3e63",
+                                        "motion": "1b8277fb14df1590"
+                                      }
+                                    },
+                                    {
+                                      "id": "stopEvent",
+                                      "params": {}
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": ""
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "目前没什么事了,谢谢,如果你有什么好东西的话,可以交给我看看"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "actor",
+                            "actor": {
+                              "type": "player"
+                            },
+                            "operation": "has-items",
+                            "itemId": "1cae6ec5584178c8",
+                            "quantity": 1
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showChoices",
+                            "params": {
+                              "choices": [
+                                {
+                                  "content": "哇,是这个",
+                                  "commands": [
+                                    {
+                                      "id": "showText",
+                                      "params": {
+                                        "target": {
+                                          "type": "trigger"
+                                        },
+                                        "parameters": "",
+                                        "content": "看你的能力,我可以带你去一个地方"
+                                      }
+                                    },
+                                    {
+                                      "id": "showChoices",
+                                      "params": {
+                                        "choices": [
+                                          {
+                                            "content": "给2个封印石(前往5级副本)",
+                                            "commands": [
+                                              {
+                                                "id": "if",
+                                                "params": {
+                                                  "branches": [
+                                                    {
+                                                      "mode": "all",
+                                                      "conditions": [
+                                                        {
+                                                          "type": "actor",
+                                                          "actor": {
+                                                            "type": "player"
+                                                          },
+                                                          "operation": "has-items",
+                                                          "itemId": "1cae6ec5584178c8",
+                                                          "quantity": 2
+                                                        }
+                                                      ],
+                                                      "commands": [
+                                                        {
+                                                          "id": "setInventory",
+                                                          "params": {
+                                                            "actor": {
+                                                              "type": "player"
+                                                            },
+                                                            "operation": "decrease-items",
+                                                            "itemId": "1cae6ec5584178c8",
+                                                            "quantity": 2
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "deleteScene",
+                                                          "params": {}
+                                                        },
+                                                        {
+                                                          "id": "loadScene",
+                                                          "params": {
+                                                            "sceneId": "c391498b7e39580f",
+                                                            "transfer": true,
+                                                            "x": 11,
+                                                            "y": 3
+                                                          }
+                                                        },
+                                                        {
+                                                          "id": "transferGlobalActor",
+                                                          "params": {
+                                                            "actor": {
+                                                              "type": "player"
+                                                            },
+                                                            "position": {
+                                                              "type": "region",
+                                                              "region": {
+                                                                "type": "by-id",
+                                                                "presetId": "711c3e35b8dcd575"
+                                                              },
+                                                              "mode": "center"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "elseCommands": [
+                                                    {
+                                                      "id": "showText",
+                                                      "params": {
+                                                        "target": {
+                                                          "type": "player"
+                                                        },
+                                                        "parameters": "",
+                                                        "content": "没有道具了"
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "content": "否",
+                                            "commands": []
+                                          }
+                                        ],
+                                        "parameters": ""
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "content": "结束",
+                                  "commands": []
+                                }
+                              ],
+                              "parameters": ""
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "!callEvent",
+                  "params": {
+                    "type": "actor",
+                    "actor": {
+                      "type": "trigger"
+                    },
+                    "eventType": "autorun"
+                  }
+                },
+                {
+                  "id": "!if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "actor",
+                            "actor": {
+                              "type": "trigger"
+                            },
+                            "operation": "is-member"
+                          }
+                        ],
+                        "commands": []
+                      }
+                    ],
+                    "elseCommands": [
+                      {
+                        "id": "!showText",
+                        "params": {
+                          "target": {
+                            "type": "trigger"
+                          },
+                          "parameters": "",
+                          "content": "需要我跟随冒险吗"
+                        }
+                      },
+                      {
+                        "id": "!showChoices",
+                        "params": {
+                          "choices": [
+                            {
+                              "content": "是",
+                              "commands": [
+                                {
+                                  "id": "!createActor",
+                                  "params": {
+                                    "actorId": "d8dbf6fe07548586",
+                                    "teamId": "2a6ee1684ef7dfa0",
+                                    "position": {
+                                      "type": "absolute",
+                                      "x": 0,
+                                      "y": 0
+                                    },
+                                    "angle": 0
+                                  }
+                                },
+                                {
+                                  "id": "!createGlobalActor",
+                                  "params": {
+                                    "actorId": "d8dbf6fe07548586",
+                                    "teamId": "2a6ee1684ef7dfa0"
+                                  }
+                                },
+                                {
+                                  "id": "!createActor",
+                                  "params": {
+                                    "actorId": "d8dbf6fe07548586",
+                                    "teamId": "2a6ee1684ef7dfa0",
+                                    "position": {
+                                      "type": "absolute",
+                                      "x": 0,
+                                      "y": 0
+                                    },
+                                    "angle": 0
+                                  }
+                                },
+                                {
+                                  "id": "!setPartyMember",
+                                  "params": {
+                                    "operation": "add",
+                                    "actor": {
+                                      "type": "global",
+                                      "actorId": "d8dbf6fe07548586"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "!changeActorTeam",
+                                  "params": {
+                                    "actor": {
+                                      "type": "global",
+                                      "actorId": "d8dbf6fe07548586"
+                                    },
+                                    "teamId": "09eae4cd86f61848"
+                                  }
+                                },
+                                {
+                                  "id": "!callEvent",
+                                  "params": {
+                                    "type": "global",
+                                    "eventId": "60e2fb94a2bb96cc"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "content": "否(不需要了)",
+                              "commands": [
+                                {
+                                  "id": "!setPartyMember",
+                                  "params": {
+                                    "operation": "remove",
+                                    "actor": {
+                                      "type": "global",
+                                      "actorId": "d8dbf6fe07548586"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "boolean",
+                            "variable": {
+                              "type": "global",
+                              "key": "475be8ef1499b341"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "constant",
+                              "value": true
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "moveActor",
+                            "params": {
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "mode": "teleport",
+                              "destination": {
+                                "type": "absolute",
+                                "x": 17,
+                                "y": 5
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "elseCommands": [
+                      {
+                        "id": "moveActor",
+                        "params": {
+                          "actor": {
+                            "type": "trigger"
+                          },
+                          "mode": "teleport",
+                          "destination": {
+                            "type": "absolute",
+                            "x": -17,
+                            "y": -5
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "任务"
+                  }
+                },
+                {
+                  "id": "removeAnimationComponent",
+                  "params": {
+                    "actor": {
+                      "type": "trigger"
+                    },
+                    "animationId": "ba6127b1cc0d3e63",
+                    "motion": "95a8001ea1e666b1"
+                  }
+                },
+                {
+                  "id": "removeAnimationComponent",
+                  "params": {
+                    "actor": {
+                      "type": "trigger"
+                    },
+                    "animationId": "ba6127b1cc0d3e63",
+                    "motion": "1b8277fb14df1590"
+                  }
+                },
+                {
+                  "id": "setString",
+                  "params": {
+                    "variable": {
+                      "type": "local",
+                      "key": "任务状态"
+                    },
+                    "operation": "set",
+                    "operand": {
+                      "type": "constant",
+                      "value": ""
+                    }
+                  }
+                },
+                {
+                  "id": "a6d23c0d87450ce5",
+                  "params": {
+                    "操作选项": "取任务状态",
+                    "下级选项": "选择单一任务取状态",
+                    "选择任务": "300e6e2585e8e640",
+                    "存到变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": "任务状态"
+                    },
+                    "取任务状态_ID_变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "取任务状态_ID_置状态": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "选择设置任务": "",
+                    "任务的枚举": "",
+                    "存档检索位置": -1,
+                    "操作存档索引": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "读档检索位置": -1,
+                    "操作读档索引": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "ID变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    },
+                    "存到任务名称变量": {
+                      "getter": "variable",
+                      "type": "local",
+                      "key": ""
+                    }
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "未解锁"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "64963119bf100e1c"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "if",
+                            "params": {
+                              "branches": [
+                                {
+                                  "mode": "all",
+                                  "conditions": [
+                                    {
+                                      "type": "boolean",
+                                      "variable": {
+                                        "type": "global",
+                                        "key": "475be8ef1499b341"
+                                      },
+                                      "operation": "equal",
+                                      "operand": {
+                                        "type": "constant",
+                                        "value": true
+                                      }
+                                    }
+                                  ],
+                                  "commands": [
+                                    {
+                                      "id": "a6d23c0d87450ce5",
+                                      "params": {
+                                        "操作选项": "设置任务状态",
+                                        "下级选项": "选择单一任务取状态",
+                                        "选择任务": "",
+                                        "存到变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "取任务状态_ID_变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "取任务状态_ID_置状态": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "选择设置任务": "300e6e2585e8e640",
+                                        "任务的枚举": "95a8001ea1e666b1",
+                                        "存档检索位置": -1,
+                                        "操作存档索引": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "读档检索位置": -1,
+                                        "操作读档索引": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "ID变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        },
+                                        "存到任务名称变量": {
+                                          "getter": "variable",
+                                          "type": "local",
+                                          "key": ""
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "addAnimationComponent",
+                                      "params": {
+                                        "actor": {
+                                          "type": "trigger"
+                                        },
+                                        "animationId": "ba6127b1cc0d3e63",
+                                        "motion": "95a8001ea1e666b1",
+                                        "rotatable": false,
+                                        "syncAngle": false,
+                                        "priority": 0,
+                                        "offsetY": 0
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "未接收任务"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "95a8001ea1e666b1"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "addAnimationComponent",
+                            "params": {
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "animationId": "ba6127b1cc0d3e63",
+                              "motion": "95a8001ea1e666b1",
+                              "rotatable": false,
+                              "syncAngle": false,
+                              "priority": 0,
+                              "offsetY": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "已接收任务"
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "可完成任务"
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "local",
+                              "key": "任务状态"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "1b8277fb14df1590"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "addAnimationComponent",
+                            "params": {
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "animationId": "ba6127b1cc0d3e63",
+                              "motion": "1b8277fb14df1590",
+                              "rotatable": false,
+                              "syncAngle": false,
+                              "priority": 0,
+                              "offsetY": 0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "comment",
+                  "params": {
+                    "comment": "自言自语"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "label",
+                        "params": {
+                          "name": "自言自语"
+                        }
+                      },
+                      {
+                        "id": "setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "local",
+                            "key": "随机时间"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "math",
+                              "method": "random-int",
+                              "min": 1000,
+                              "max": 3000
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "wait",
+                        "params": {
+                          "duration": {
+                            "type": "local",
+                            "key": "随机时间"
+                          }
+                        }
+                      },
+                      {
+                        "id": "showText",
+                        "params": {
+                          "target": {
+                            "type": "trigger"
+                          },
+                          "parameters": "mode:chat",
+                          "content": "好卡帕啊"
+                        }
+                      },
+                      {
+                        "id": "setNumber",
+                        "params": {
+                          "variable": {
+                            "type": "local",
+                            "key": "随机时间"
+                          },
+                          "operation": "set",
+                          "operands": [
+                            {
+                              "operation": "add",
+                              "type": "math",
+                              "method": "random-int",
+                              "min": 1000,
+                              "max": 5000
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "wait",
+                        "params": {
+                          "duration": {
+                            "type": "local",
+                            "key": "随机时间"
+                          }
+                        }
+                      },
+                      {
+                        "id": "jumpTo",
+                        "params": {
+                          "operation": "jump",
+                          "label": "自言自语"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "34a74904d1aa0dbc"
+    },
+    {
+      "class": "folder",
+      "name": "区域",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "region",
+          "name": "开局触发器",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "3feffd8d0c0edd0d",
+          "color": "00000080",
+          "x": 1.5,
+          "y": 1.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "!wait",
+                  "params": {
+                    "duration": 100
+                  }
+                },
+                {
+                  "id": "!castSkill",
+                  "params": {
+                    "actor": {
+                      "type": "player"
+                    },
+                    "mode": "by-key",
+                    "key": "90007906916a7fd8",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!shakeScreen",
+                  "params": {
+                    "mode": "random",
+                    "power": 5,
+                    "speed": 10,
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 200,
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!showText",
+                  "params": {
+                    "target": {
+                      "type": "player"
+                    },
+                    "parameters": "",
+                    "content": "999"
+                  }
+                },
+                {
+                  "id": "!shakeScreen",
+                  "params": {
+                    "mode": "random",
+                    "power": 10,
+                    "speed": 10,
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 200,
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "!wait",
+                  "params": {
+                    "duration": 1002
+                  }
+                },
+                {
+                  "id": "!moveActor",
+                  "params": {
+                    "actor": {
+                      "type": "player"
+                    },
+                    "mode": "straight",
+                    "destination": {
+                      "type": "relative",
+                      "x": 2,
+                      "y": 0
+                    },
+                    "wait": true
+                  }
+                },
+                {
+                  "id": "!castSkill",
+                  "params": {
+                    "actor": {
+                      "type": "player"
+                    },
+                    "mode": "by-key",
+                    "key": "90007906916a7fd8",
+                    "wait": false
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "boolean",
+                            "variable": {
+                              "type": "global",
+                              "key": "c3cdf38cf32de54a"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "constant",
+                              "value": false
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "左边是我居住的地方"
+                            }
+                          },
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "右边是种子平原"
+                            }
+                          },
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "player"
+                              },
+                              "parameters": "",
+                              "content": "先回去把"
+                            }
+                          },
+                          {
+                            "id": "setBoolean",
+                            "params": {
+                              "variable": {
+                                "type": "global",
+                                "key": "c3cdf38cf32de54a"
+                              },
+                              "operation": "set",
+                              "operand": {
+                                "type": "constant",
+                                "value": true
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "左",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "7d8c131333498b06",
+          "color": "00000080",
+          "x": 1,
+          "y": 6.5,
+          "width": 2,
+          "height": 4,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "6d923a225e694e04",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "b1d7e350d46dd9df"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      },
+                      {
+                        "id": "setBoolean",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "475be8ef1499b341"
+                          },
+                          "operation": "set",
+                          "operand": {
+                            "type": "constant",
+                            "value": true
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "右",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8ff328bb043a66c0",
+          "color": "00000080",
+          "x": 29,
+          "y": 6.5,
+          "width": 2,
+          "height": 4,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "!deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "!loadScene",
+                        "params": {
+                          "sceneId": "3b05db5bd60644f3",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "!transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "4e68654da2107c44"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      },
+                      {
+                        "id": "if",
+                        "params": {
+                          "branches": [
+                            {
+                              "mode": "all",
+                              "conditions": [
+                                {
+                                  "type": "boolean",
+                                  "variable": {
+                                    "type": "global",
+                                    "key": "475be8ef1499b341"
+                                  },
+                                  "operation": "equal",
+                                  "operand": {
+                                    "type": "constant",
+                                    "value": true
+                                  }
+                                }
+                              ],
+                              "commands": [
+                                {
+                                  "id": "deleteScene",
+                                  "params": {}
+                                },
+                                {
+                                  "id": "loadScene",
+                                  "params": {
+                                    "sceneId": "ff6edb770ab4f527",
+                                    "transfer": true,
+                                    "x": 11,
+                                    "y": 3
+                                  }
+                                },
+                                {
+                                  "id": "transferGlobalActor",
+                                  "params": {
+                                    "actor": {
+                                      "type": "player"
+                                    },
+                                    "position": {
+                                      "type": "region",
+                                      "region": {
+                                        "type": "by-id",
+                                        "presetId": "f926329ba42d4541"
+                                      },
+                                      "mode": "center"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "elseCommands": [
+                            {
+                              "id": "showText",
+                              "params": {
+                                "target": {
+                                  "type": "trigger"
+                                },
+                                "parameters": "mode:chat",
+                                "content": "以后在来把"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "上",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "85b56c1c736cc3e5",
+          "color": "00000080",
+          "x": 13,
+          "y": 3,
+          "width": 4,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "af739f72a55d5d42",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "b063e6d21740bf3b"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "背景音乐",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "fab36aa6e99cf178",
+          "color": "00000080",
+          "x": 1,
+          "y": 0.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "playAudio",
+                  "params": {
+                    "type": "bgm",
+                    "audio": "3a4bbbe63657cf67",
+                    "volume": 1
+                  }
+                },
+                {
+                  "id": "setVolume",
+                  "params": {
+                    "type": "bgm",
+                    "volume": {
+                      "type": "global",
+                      "key": "a9bb97971c7c2fd1"
+                    },
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 0,
+                    "wait": false
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "4c4275d9b547341c"
+    },
+    {
+      "class": "folder",
+      "name": "光源",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "77011a736eebdc55"
+    },
+    {
+      "class": "folder",
+      "name": "动画",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "032486821cec5669",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 28.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "95b3e5212d0e24d1",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 13.5,
+          "y": 3,
+          "angle": 0,
+          "scale": 2,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "dfdc0c6063a54a63",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 0.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "b268c95751bd551a"
+    },
+    {
+      "class": "folder",
+      "name": "粒子",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "e2be860259d6b7d5"
+    },
+    {
+      "class": "folder",
+      "name": "视察",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "39e4b105eb9cf117"
+    }
+  ]
+}

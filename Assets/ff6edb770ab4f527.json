@@ -1,0 +1,1118 @@
+{
+  "width": 30,
+  "height": 20,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%K5M%JQ%HS%IR%FU%GT%FU%FU%5M%@V%5M%AU%5M%5M%<U%5M%5M%;V%5Y%4V%@M%5V%@M%5V%@M%5V%@M%5V%7Y%V%FU%FU",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "草地",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "7bfb92be9226c7c6",
+          "tilesetMap": {
+            "1": "43ca703199248a3f",
+            "2": "251bbf0413c49a24"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#3#$#mG1#3#$.#3#$%#3#$,#3#$#m3#3#$$#3#&##3#$&#3#$#m3#3#$$#3#&##3#$&#3#$#c#3#$.#3#$%#3#$,#3#$#m.#3#$$#3#&##3#$&#3#$#c#3#$$#3#&##3#$&#3#$#m.#3#$$#3#&##3#$*#3#$%c#3#$+#3#&##3#$*#3#$%g#3#$,#3#$#f#3#$$#C+*##3#&#e#C++##3#&#c#C+*##3#&#c#C+*##3#&##3#$&#3#$#f#3#$/#3#$'k#3#$)#3#&##3#$(#3#$-#3#$#m2#3#$$#3#&##3#$&#3#$#m3#3#$$#3#&##3#$&#3#$#j#3#$.#3#$%h#3#$+#3#&##3#$*#3#$%c#3#$,#3#$#g#3#$$#3#&#i#C+*#e#3#$&#3#$#g#3#$/#3#$'m.#3#$-#3#$#m6",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "装饰",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "9b3684e52b1a9844",
+          "tilesetMap": {
+            "1": "29e638c496c7404d",
+            "2": "767900fef1661ecd",
+            "3": "49edeafec06d0334",
+            "4": "736ffd85702fc92a",
+            "5": "da7173b72c27c9cd"
+          },
+          "shortcut": 2,
+          "layer": "foreground",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~8$3###$3#$#$3#%#$3#&#$3#'#|$3'##$3'$#$3'%#$3'&#$3''##C#(#{$3+##$3+$#$3+%#$3+&#$3+'#|$3/##$3/$#$3/%#$3/&#$3/'#|$33##$33$#$33%#$33&#$33'#|$37##$37$#$37%#$37&#$37'#}#C7$#o#C7'##C7(#~D-#S'&#r#33(#e}#33(#e}#3?+#d~4#33(#n#3?+#~5#3?+#c~4#33(#e}#33(#e}#33(#et#S')#u#33(#e#S'##$#'$#m6$#'##m2$##%#$#'##d",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "b232c68f5793bfde"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "公告栏",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "d493200238e3dee3",
+          "actorId": "f7dce2836241b052",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 4.5,
+          "y": 9.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "村庄\n:主角的初始地图[新手村]"
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "公告栏",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "a71c60ce2d81a4cc",
+          "actorId": "88c7f65ed6c39acd",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 8.5,
+          "y": 12.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "种子森林\n:外围的种子森林[建议1-10级]"
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "公告栏",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "029637102721bc10",
+          "actorId": "88c7f65ed6c39acd",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 8.5,
+          "y": 17.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "大刀之地(危险的)"
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "公告栏",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4a50d4df043b68d2",
+          "actorId": "88c7f65ed6c39acd",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 14.5,
+          "y": 12.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "夜之森林\n:外围的夜之森林[建议11-20级]"
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "公告栏",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "dc05963884050e56",
+          "actorId": "88c7f65ed6c39acd",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 17.5,
+          "y": 17.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "4009faa4ee2f5fbc",
+              "commands": [
+                {
+                  "id": "showText",
+                  "params": {
+                    "target": {
+                      "type": "trigger"
+                    },
+                    "parameters": "",
+                    "content": "水域森林\n:外围的水域森林[建议21-30级]"
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "宝箱",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "bd7a55e4ab19dab0",
+          "actorId": "024a9ddc97c12c88",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 7.5,
+          "y": 12.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "c2ba6c4f90edd668",
+              "commands": [
+                {
+                  "id": "249c9c9d4de177c9",
+                  "params": {
+                    "actor": "trigger",
+                    "localActorKey": "",
+                    "globalActorKey": "",
+                    "type": "item",
+                    "itemId": "1ca5db31b189dc75",
+                    "equipmentId": "",
+                    "min": 400,
+                    "max": 500,
+                    "dropRate": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "558a9b60e0c19fc5"
+    },
+    {
+      "class": "folder",
+      "name": "区域",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "region",
+          "name": "夜之森林传送",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "295748e2d6b35af7",
+          "color": "c000c080",
+          "x": 19.5,
+          "y": 12.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "actorenter",
+              "commands": [
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "actor",
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "key": "fe5c2daaadda1b45"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "dcc03c0f29c02d58"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "前面对你来说太危险了!换别的地方吧(转职后在来)"
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "c3dcf65ef29de508",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "1af294d26037eb92"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      },
+                      {
+                        "id": "setBoolean",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "24499decb41940d7"
+                          },
+                          "operation": "set",
+                          "operand": {
+                            "type": "constant",
+                            "value": true
+                          }
+                        }
+                      },
+                      {
+                        "id": "!setAmbientLight",
+                        "params": {
+                          "red": 10,
+                          "green": 10,
+                          "blue": 20,
+                          "easingId": "01eac96676bb2ee7",
+                          "duration": 1000,
+                          "wait": false
+                        }
+                      },
+                      {
+                        "id": "setAmbientLight",
+                        "params": {
+                          "red": 50,
+                          "green": 50,
+                          "blue": 50,
+                          "easingId": "01eac96676bb2ee7",
+                          "duration": 1000,
+                          "wait": false
+                        }
+                      },
+                      {
+                        "id": "setText",
+                        "params": {
+                          "element": {
+                            "type": "trigger"
+                          },
+                          "properties": [
+                            {
+                              "key": "content",
+                              "value": "Night"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "callEvent",
+                        "params": {
+                          "type": "global",
+                          "eventId": "03bca125e5493562"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "水域森林传送",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "c185c47c628886eb",
+          "color": "c000c080",
+          "x": 19.5,
+          "y": 15.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "actorenter",
+              "commands": [
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "actor",
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "key": "fe5c2daaadda1b45"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "dcc03c0f29c02d58"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "前面对你来说太危险了!换别的地方吧(转职后在来)"
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "number",
+                            "variable": {
+                              "type": "actor",
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "key": "fb9d675011f6c08f"
+                            },
+                            "operation": "less",
+                            "operand": {
+                              "type": "constant",
+                              "value": 20
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "前面对你来说太危险了!换别的地方吧(20级后在来)"
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "e8524eefafa42d69",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "0f237d6ecca7ff36"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "种子森林传送",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "495bbbd4fdd895ac",
+          "color": "c000c080",
+          "x": 9.5,
+          "y": 10.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "actorenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "d24e34ede682d812",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "030a8ecdb4fc1ac7"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "村庄",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f926329ba42d4541",
+          "color": "c000c080",
+          "x": 4.5,
+          "y": 8.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "actorenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "61837bb21ce75b17",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "8ff328bb043a66c0"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "回程位置",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "5e7aa80af935321b",
+          "color": "00000080",
+          "x": 4.5,
+          "y": 12.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "大刀之地",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "be22c2b0696020b5",
+          "color": "c000c080",
+          "x": 4.5,
+          "y": 17.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "actorenter",
+              "commands": [
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "string",
+                            "variable": {
+                              "type": "actor",
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "key": "fe5c2daaadda1b45"
+                            },
+                            "operation": "equal",
+                            "operand": {
+                              "type": "enum",
+                              "stringId": "dcc03c0f29c02d58"
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "前面对你来说太危险了!换别的地方吧(转职后在来)"
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "if",
+                  "params": {
+                    "branches": [
+                      {
+                        "mode": "all",
+                        "conditions": [
+                          {
+                            "type": "number",
+                            "variable": {
+                              "type": "actor",
+                              "actor": {
+                                "type": "trigger"
+                              },
+                              "key": "fb9d675011f6c08f"
+                            },
+                            "operation": "less",
+                            "operand": {
+                              "type": "constant",
+                              "value": 20
+                            }
+                          }
+                        ],
+                        "commands": [
+                          {
+                            "id": "showText",
+                            "params": {
+                              "target": {
+                                "type": "trigger"
+                              },
+                              "parameters": "",
+                              "content": "前面对你来说太危险了!换别的地方吧(20级后在来)"
+                            }
+                          },
+                          {
+                            "id": "stopEvent",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "f760cdb486e9bdf1",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "6bf16b6c8dcffd82"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "Region",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "b3c2ff235b9dda55",
+          "color": "00000080",
+          "x": 18.5,
+          "y": 10.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "wait",
+                        "params": {
+                          "duration": 500
+                        }
+                      },
+                      {
+                        "id": "setBoolean",
+                        "params": {
+                          "variable": {
+                            "type": "global",
+                            "key": "24499decb41940d7"
+                          },
+                          "operation": "set",
+                          "operand": {
+                            "type": "constant",
+                            "value": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "setAmbientLight",
+                        "params": {
+                          "red": 255,
+                          "green": 255,
+                          "blue": 255,
+                          "easingId": "01eac96676bb2ee7",
+                          "duration": 1000,
+                          "wait": false
+                        }
+                      },
+                      {
+                        "id": "callEvent",
+                        "params": {
+                          "type": "global",
+                          "eventId": "03bca125e5493562"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "背景音乐",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "36ab7b0d3557c41c",
+          "color": "00000080",
+          "x": 8.5,
+          "y": 7.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "playAudio",
+                  "params": {
+                    "type": "bgm",
+                    "audio": "3a4bbbe63657cf67",
+                    "volume": 1
+                  }
+                },
+                {
+                  "id": "setVolume",
+                  "params": {
+                    "type": "bgm",
+                    "volume": {
+                      "type": "global",
+                      "key": "a9bb97971c7c2fd1"
+                    },
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 0,
+                    "wait": false
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "11718948f10a6601"
+    },
+    {
+      "class": "folder",
+      "name": "光源",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "a5d15e8bc915033b"
+    },
+    {
+      "class": "folder",
+      "name": "动画",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "97f16a22522f4f1c",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 9.5,
+          "y": 10.5,
+          "angle": 0,
+          "scale": 1,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "animation",
+          "name": "传送门动画",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "59d3c32dcb8029fb",
+          "animationId": "22e7e46b88875409",
+          "motion": "17564b58ac27b9ad",
+          "rotatable": false,
+          "x": 4.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "speed": 1,
+          "opacity": 1,
+          "priority": 0,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "a34fe39f60069814"
+    },
+    {
+      "class": "folder",
+      "name": "粒子",
+      "expanded": true,
+      "hidden": true,
+      "locked": true,
+      "children": [],
+      "presetId": "58e78137781c3281"
+    },
+    {
+      "class": "folder",
+      "name": "视察",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "2e067c1d0adba4b9"
+    }
+  ]
+}

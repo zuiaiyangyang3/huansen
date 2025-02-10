@@ -1,0 +1,704 @@
+{
+  "width": 60,
+  "height": 32,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%?N%LD<N%KJc%7^%=d%7^%<e%7^%<}%<}%<e%7^%<e%7^%=d%?M%LD=M%LD=M%LD=M%LD;P%K5p%Ip%Ip%Ip%Ip%Ip%Ip%Ip%Ip%Ip%Ip%Ij%LN:",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "最下层地面即水面等",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "7c80c702a9c1369d",
+          "tilesetMap": {
+            "2": "736ffd85702fc92a"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 60,
+          "height": 32,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#C'##mD^B",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "842cfaa29239c37f",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 60,
+          "height": 32,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 8,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "z#C+&%#C+&+c#C+&#~D;#C+&%#C+&+c#C+&#~D3#C+&'#C+&&h#C+&.#C+&+c#C+&/#C+&&l#C+&(r#C+&'#C+&&m3#C+&(x#C+&'#C+&.#C+&+m8#C+&#r#C+&%#C+&+m3#C+&#w#C+&'#C+&.#C+&+m9#C+&#r#C+&%#C+&+m3#C+&#w#C+&%#C+&+m:#C+&/#C+&&f#C+&.#C+&+m3#C+&#w#C+&%#C+&+mD2#C+&#w#C+&%#C+&+m:#C+&-#C+&$f#C+&,#C+&+m3#C+&#w#C+&%#C+&+m:#C+&#r#C+&%#C+&+m3#C+&#w#C+&)#C+&,#C+&+m9#C+&#r#C+&)#C+&$h#C+&,#C+&-#C+&$i#C+&*x#C+&)#C+&$m9#C+&*z#C+&%#C+&#~D=#C+&%#C+&#~D=#C+&%#C+&#~D;#C+&'#C+&&#C+&.#C+&/#C+&(~?#C+&'#C+&&m<#C+&.#C+&+d#C+&/#C+&&e#C+&(~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+mD%#C+&#~:#C+&%#C+&+m?#C+&-#C+&$f#C+&*~:#C+&)#C+&$m?#C+&*~L?",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "水面纹理",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "995977e5f7e36843",
+          "tilesetMap": {
+            "1": "736ffd85702fc92a"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 60,
+          "height": 32,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 8,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 0.7,
+          "code": "#3#%#t#3###c~D&#3###{#3#%#r#3###n#3###cu#3#%#ep#3###n#3###n#3###dn#3#%#do#3#%##3###fz#3#%#cn#3#%#c~@#3###n#3#%#~8#3#%#~D?#3###p#3#%#c~D8#3###~D@#3###~D;#3#%#n#3###q#3#%#c~<#3'&##3'$#f#3'%#~>#3#%#~D=#3#%#n#3'(##3'%#~@#3'(##3'$#h#3'%##3'&##3'$#i#3''#r#3#%#r#3'(##3'$#m9#3''#~7#3#%#s#3###cx#3###}#3#%#o#3#%#co#3#%#o#3#%#o#3#%#y#3###r#3###o#3#%#p#3###p#3###r#3###o#3###n#3####3#%#w#3#%#n#3#%#p#3#%#u#3#%#o#3#%#s#3###cr#3#%#n#3#%#q#3####3#%#o#3###cu#3#%#o#3#%#n#3#%#co#3#%#n#3#%#cn#3#%#x#3#%##3###n#3###c~D=#3###~E)#3#%#~D8#3#%#v#3#%#~D1#3#%#n#3#%#p#3#$#c~D1#3###q#3#%#v#3#%#cp#3#%#~D*#3###t#3#%#q#3#$#q#3#%#cn#3#%#~D*#3###o#3###y#3#%#n#3#%#o#3#%#~D(#3###p#3###~D;#3###n#3###o#3###|#3###~D*#3###~D?#3###n#3###cq#3#$#du#3#%#~A#3'&##3'$#f#3''#x#3#$#cw#3'(##3'$#m?#3''#q#3#%#q#3###u#3###co#3#%#o#3#%#cw#3#%#e~:#3#%#z#3###cr#3#%#cq#3###t#3#%#r#3#%#q#3#%#p#3#%#n#3#%#o#3#%#r#3#%#dp#3#%#v#3###co#3#%#t#3###p#3#%#s#3#%#cq#3#%#cs#3#%#dp#3#%#n#3#%#dn#3#%#u#3###cn#3###r#3#%#p#3###cn#3###p#3#%#dp#3#%#s#3#%#s#3#%#cp#3#%#cr#3#%#~E#",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面细节",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "33294cbbe1c7144a",
+          "tilesetMap": {
+            "1": "43ca703199248a3f"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 60,
+          "height": 32,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~J$#3#&(#3#&)~A#3#&(#3#&'c#3#&)}#3#&(#3#&'#3#&)q#3#&(#3#&-#3#&$~7#3#&(#3#&'#3#&)r#3#&(#3#&'#3#&-#3#&##3#&.#3#&+}#3#&*#3#&,#3#&$q#3#&&#3#&##3#&$~7#3#&*#3#&,#3#&$r#3#&*#3#&%d#3#&+~5#3#&*#3#&+q#3#&*#3#&%#3#&+~8#3#&*#3#&+~X,#3#&(#3#&'#3#&)x#3#&(#3#&)~A#3#&(#3#&'#3#&)v#3#&(#3#&'#3#&-#3#&##3#&/#3#&'e#3#&)s#3#&&#3#&$~A#3#&&#3#&##3#&/#3#&'#3#&)t#3#&*#3#&%i#3#&+s#3#&&#3#&$~@#3#&(#3#&-#3#&#c#3#&.#3#&+~:#3#&*#3#&+~@#3#&*#3#&%d#3#&+~U&",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "物件",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "d0ed8a04badce517",
+          "tilesetMap": {
+            "1": "8cd2583e89ed7397",
+            "2": "49edeafec06d0334"
+          },
+          "shortcut": 2,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 60,
+          "height": 32,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~H)#C'%#~=#C'%#~D'#C'%#}#C'%#~A#C#(#o#C'%#~=#C'$#p#37'##37(##37)#o#C'$#s#37'##37(##37)#|#C'%#o#C'&##37'##37(##37)#~:#3;'##3;(##3;)#v#3;'##3;(##3;)#|#C'%#p#3;'##3;(##3;)#n#C'&#~8#3?'##3?(##3?)#r#C'%#co#3?'##3?(##3?)#v#C'%#n#C'&#t#3?'##3?(##3?)#~?#C'%#c~D:#C'%#~N=#37$##37%##37&#~D<#3;$##3;%##3;&#t#C'&#~D'#C'&#r#C#&##C#'#r#3?$##3?%##3?&#u#C'&#c~D%#C'&#~;#C'&#~D)#37$##37%##37&#r#C')#~D6#3;$##3;%##3;&#z#37$##37%##37&#~D'#C')#q#3?$##3?%##3?&#z#3;$##3;%##3;&#~D2#C'&#v#3?$##3?%##3?&#~D.#C'&#t#C'&#~D1#C'&#~Q-",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "35abd2e4df0dd08a"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": false,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8d834233dbf162e9",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 20.5,
+          "y": 23.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "94b663338f4f47a7",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 30.5,
+          "y": 24.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "febfddcaeddf8938",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 28.5,
+          "y": 20.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "849e2d2fdb582b64",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 34.5,
+          "y": 22.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "352dc0d530f897bd",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 37.5,
+          "y": 24.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "4a5c069f6e196c29",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 37.5,
+          "y": 19.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "01606ff38bda6a90",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 8.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "596ffda7e535ac6f",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 9.5,
+          "y": 9.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "df58a2c64e3392e8",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 13.5,
+          "y": 4.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "c7ba44ad2ebf4b4e",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 16.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "5e872d6f1285fec5",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 21.5,
+          "y": 8.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "f62d177479ea4d3a",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 20.5,
+          "y": 6.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "fcf20ce6dd515eb0",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 23.5,
+          "y": 4.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "d61c49ef2f897e49",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 39.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "b5fdda98a7981e7b",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 50.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "29af5677ca850e89",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 44.5,
+          "y": 4.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "822984c2aa54bdc5",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 17.5,
+          "y": 16.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "32c5c035bbfd5a46",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 24.5,
+          "y": 16.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "00944313ca0642e2",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 41.5,
+          "y": 19.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "011.拔腿种子",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "0fe5d58a978f1ea4",
+          "actorId": "931771828aa95a59",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 37.5,
+          "y": 15.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "actor",
+          "name": "012.敢达鸭",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "20a9b171fe3a8c92",
+          "actorId": "3c031c0018db6150",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 46.5,
+          "y": 18.5,
+          "angle": 0,
+          "scale": 1,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "70423f35c76854d0"
+    },
+    {
+      "class": "folder",
+      "name": "区域",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "region",
+          "name": "上传送点",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "0f237d6ecca7ff36",
+          "color": "ff5de680",
+          "x": 15.5,
+          "y": 0.5,
+          "width": 3,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "playerenter",
+              "commands": [
+                {
+                  "id": "callEvent",
+                  "params": {
+                    "type": "global",
+                    "eventId": "105bb3424f872d93"
+                  }
+                },
+                {
+                  "id": "independent",
+                  "params": {
+                    "commands": [
+                      {
+                        "id": "deleteScene",
+                        "params": {}
+                      },
+                      {
+                        "id": "loadScene",
+                        "params": {
+                          "sceneId": "ff6edb770ab4f527",
+                          "transfer": true,
+                          "x": 11,
+                          "y": 3
+                        }
+                      },
+                      {
+                        "id": "transferGlobalActor",
+                        "params": {
+                          "actor": {
+                            "type": "player"
+                          },
+                          "position": {
+                            "type": "region",
+                            "region": {
+                              "type": "by-id",
+                              "presetId": "c185c47c628886eb"
+                            },
+                            "mode": "center"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "region",
+          "name": "背景音乐",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "bdab0f8f0df2788a",
+          "color": "00000080",
+          "x": 22.5,
+          "y": 14.5,
+          "width": 1,
+          "height": 1,
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": [
+                {
+                  "id": "playAudio",
+                  "params": {
+                    "type": "bgm",
+                    "audio": "3a4bbbe63657cf67",
+                    "volume": 1
+                  }
+                },
+                {
+                  "id": "setVolume",
+                  "params": {
+                    "type": "bgm",
+                    "volume": {
+                      "type": "global",
+                      "key": "a9bb97971c7c2fd1"
+                    },
+                    "easingId": "01eac96676bb2ee7",
+                    "duration": 0,
+                    "wait": false
+                  }
+                }
+              ]
+            }
+          ],
+          "scripts": []
+        }
+      ],
+      "presetId": "87c38e610c366899"
+    },
+    {
+      "class": "folder",
+      "name": "光源",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "9a6a422387bdf623"
+    },
+    {
+      "class": "folder",
+      "name": "动画",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "1ae1400ed8b11c8b"
+    },
+    {
+      "class": "folder",
+      "name": "粒子",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "d2b02621b874e364"
+    },
+    {
+      "class": "folder",
+      "name": "视察",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [],
+      "presetId": "d1b8e97650725673"
+    }
+  ]
+}

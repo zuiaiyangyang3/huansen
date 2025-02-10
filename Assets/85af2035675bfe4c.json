@@ -1,0 +1,431 @@
+{
+  "width": 30,
+  "height": 17,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "direct": 0
+  },
+  "terrains": "%KDN%Eb%9b%7d%7d%7d%7d%7d%7d%8c%8b%9b%9b%LE?",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "最下层地面即水面等",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "6cbf2db9f357850f",
+          "tilesetMap": {
+            "2": "736ffd85702fc92a"
+          },
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 0.8,
+          "code": "#C####C'##d#C#$##C'###C#%##C'###C###e#C'##c#C#$##C#%##C#$#c#C#%#c#C'##c#C####C'###C#$##C'##mD+~9#C'##h~:#C'##g~;#C'##g~;#C'##g~;#C'##g~;#C'##c#C###f#C#$#c#C'##k#C###f#C'###C###do#C'##c#C####C'##d#C#$#c#C'###C###c#C'###C#$#c#C###c#C'###C#$##C'##c#C#$#d#C####C#%#d#C###o#C'##c#C####C'###C#%##C#$##C'##c#C###d#C'##c#C#%#c#C'###C#%##C#$#d#C####C'###C#%#c#C#$##C####C#%#c#C####C'##h#C#%##C####C'##f#C#$#g#C'###C#$#c#C'###C#$##C'###C###c#C#%##C####C'###C###c#C'##mG8",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "91deb6d9e4fe784e",
+          "tilesetMap": {
+            "2": "43ca703199248a3f"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "z#C+&%#C+&+c#C+&#~=#C+&%#C+&+c#C+&#~5#C+&'#C+&&h#C+&.#C+&+c#C+&/#C+&&l#C+&(r#C+&'#C+&.#C+&+m8#C+&#q#C+&'#C+&.#C+&+m9#C+&#q#C+&%#C+&+m:#C+&#q#C+&%#C+&+m:#C+&#q#C+&%#C+&+m:#C+&#q#C+&%#C+&+m:#C+&#q#C+&)#C+&,#C+&+m9#C+&#r#C+&%#C+&+m9#C+&#r#C+&%#C+&+m8#C+&-#C+&*r#C+&%#C+&+m8#C+&#s#C+&%#C+&+m8#C+&#s#C+&)#C+&$m8#C+&*~DA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "水润土",
+          "enabled": true,
+          "hidden": true,
+          "locked": false,
+          "presetId": "d6bd114764297aac",
+          "tilesetMap": {
+            "2": "736ffd85702fc92a"
+          },
+          "shortcut": 5,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 0.77,
+          "code": "~K4#C'(##C'%#~G8#C'&##C'$#m8#C'%#~DA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "二层",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "bffb5c1ab18858d4",
+          "tilesetMap": {},
+          "shortcut": 6,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~RA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "斜坡",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "9cff0325a26c251e",
+          "tilesetMap": {},
+          "shortcut": 0,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~RA",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "地面细节",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "c18303fe5bc86c70",
+          "tilesetMap": {
+            "1": "43ca703199248a3f"
+          },
+          "shortcut": 2,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~F##3#&(#3#&)v#3#&(#3#&'#3#&)o#3#&(#3#&)y#3#&&#3#&$v#3#&*#3#&%#3#&+o#3#&&#3#&$o#3#&(#3#&)s#3#&(#3#&'#3#&-#3#&/#3#&)x#3#&(#3#&'#3#&-#3#&$o#3#&&#3#&$s#3#&*#3#&%c#3#&,#3#&$x#3#&&#3#&.#3#&%#3#&+o#3#&&#3#&$v#3#&&#3#&/#3#&)u#3#&(#3#&'#3#&-#3#&$q#3#&*#3#&+v#3#&*#3#&%#3#&+u#3#&*#3#&%c#3#&+~J;",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "物件",
+          "enabled": true,
+          "hidden": false,
+          "locked": true,
+          "presetId": "5bacc18320e3d841",
+          "tilesetMap": {
+            "2": "49edeafec06d0334"
+          },
+          "shortcut": 3,
+          "layer": "object",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 17,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~E)#C'%#p#C'##~D)#C'%#p#C'&#~H6#C'&#~I7",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "c6025ef30e99b56a"
+    },
+    {
+      "class": "folder",
+      "name": "怪物",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "actor",
+          "name": "0012.大树人",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8bee3d988f0050de",
+          "actorId": "d8ab31948d73384c",
+          "teamId": "2a6ee1684ef7dfa0",
+          "x": 17.5,
+          "y": 7.5,
+          "angle": 0,
+          "scale": 1.5,
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ],
+      "presetId": "30ef92976bff04f7"
+    },
+    {
+      "class": "region",
+      "name": "背景音乐",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "c51b973cf1113ebf",
+      "color": "00000080",
+      "x": 0.5,
+      "y": 0.5,
+      "width": 1,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "autorun",
+          "commands": [
+            {
+              "id": "playAudio",
+              "params": {
+                "type": "bgm",
+                "audio": "3a4bbbe63657cf67",
+                "volume": 1
+              }
+            },
+            {
+              "id": "setVolume",
+              "params": {
+                "type": "bgm",
+                "volume": {
+                  "type": "global",
+                  "key": "a9bb97971c7c2fd1"
+                },
+                "easingId": "01eac96676bb2ee7",
+                "duration": 0,
+                "wait": false
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "wait",
+                    "params": {
+                      "duration": 500
+                    }
+                  },
+                  {
+                    "id": "setBoolean",
+                    "params": {
+                      "variable": {
+                        "type": "global",
+                        "key": "24499decb41940d7"
+                      },
+                      "operation": "set",
+                      "operand": {
+                        "type": "constant",
+                        "value": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "!setAmbientLight",
+                    "params": {
+                      "red": 10,
+                      "green": 10,
+                      "blue": 20,
+                      "easingId": "01eac96676bb2ee7",
+                      "duration": 1000,
+                      "wait": false
+                    }
+                  },
+                  {
+                    "id": "setAmbientLight",
+                    "params": {
+                      "red": 50,
+                      "green": 50,
+                      "blue": 50,
+                      "easingId": "01eac96676bb2ee7",
+                      "duration": 1000,
+                      "wait": false
+                    }
+                  },
+                  {
+                    "id": "callEvent",
+                    "params": {
+                      "type": "global",
+                      "eventId": "03bca125e5493562"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    },
+    {
+      "class": "region",
+      "name": "上传送门",
+      "enabled": true,
+      "hidden": false,
+      "locked": false,
+      "presetId": "dca6327438bda6e8",
+      "color": "c000c080",
+      "x": 15,
+      "y": 1.5,
+      "width": 3,
+      "height": 1,
+      "conditions": [],
+      "events": [
+        {
+          "type": "actorenter",
+          "commands": [
+            {
+              "id": "callEvent",
+              "params": {
+                "type": "global",
+                "eventId": "105bb3424f872d93"
+              }
+            },
+            {
+              "id": "independent",
+              "params": {
+                "commands": [
+                  {
+                    "id": "deleteScene",
+                    "params": {}
+                  },
+                  {
+                    "id": "loadScene",
+                    "params": {
+                      "sceneId": "5be64019c4d87573",
+                      "transfer": true,
+                      "x": 11,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "id": "transferGlobalActor",
+                    "params": {
+                      "actor": {
+                        "type": "player"
+                      },
+                      "position": {
+                        "type": "region",
+                        "region": {
+                          "type": "by-id",
+                          "presetId": "a9759cda24787e32"
+                        },
+                        "mode": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "scripts": []
+    }
+  ]
+}
